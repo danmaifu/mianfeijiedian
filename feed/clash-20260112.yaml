@@ -25,11 +25,14 @@ proxies:
         name: '每天更新免费节点：clashfreenode.com'
         network: ws
         port: 80
-        server: hkt.gotochinatown.net
-        servername: hkt.gotochinatown.net
+        server: 95930bfa-t70f40-t83bw1-1f596.hkt.gotochinatown.net
+        servername: broadcastlv.chat.bilibili.com
         skip-cert-verify: true
         type: vmess
-        uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+        uuid: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
+        ws-opts:
+            headers: { HOST: broadcastlv.chat.bilibili.com }
+            path: /
     -
         alterId: 2
         cipher: auto
@@ -39,25 +42,31 @@ proxies:
         name: 'tg频道：@clashfreenode'
         network: ws
         port: 80
-        server: hkt.gotochinatown.net
-        servername: hkt.gotochinatown.net
+        server: 95930bfa-t70f40-t83bw1-1f596.hkt.gotochinatown.net
+        servername: broadcastlv.chat.bilibili.com
         skip-cert-verify: true
         type: vmess
-        uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+        uuid: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
+        ws-opts:
+            headers: { HOST: broadcastlv.chat.bilibili.com }
+            path: /
     -
         alterId: 2
         cipher: auto
         country: 🇭🇰HK
         h2-opts: {  }
         http-opts: {  }
-        name: '更新于：2026-01-12 00:17:37'
+        name: '更新于：2026-01-12 13:42:51'
         network: ws
         port: 80
-        server: hkt.gotochinatown.net
-        servername: hkt.gotochinatown.net
+        server: 95930bfa-t70f40-t83bw1-1f596.hkt.gotochinatown.net
+        servername: broadcastlv.chat.bilibili.com
         skip-cert-verify: true
         type: vmess
-        uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+        uuid: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
+        ws-opts:
+            headers: { HOST: broadcastlv.chat.bilibili.com }
+            path: /
     -
         name: '🇺🇸 美国 01'
         type: trojan
@@ -69,68 +78,17 @@ proxies:
         ws-opts:
             path: 🔒
     -
-        client-fingerprint: chrome
-        delay: 1446
         name: '🇭🇰 香港 01'
-        network: ws
+        password: BxceQaOe
         port: 443
-        server: 104.16.250.22
-        servername: l.ayovo.netlib.re
+        server: 58.152.46.60
+        skip-cert-verify: true
+        sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20783%20'
         tls: true
-        type: vless
-        udp: true
-        uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
-        ws-opts:
-            early-data-header-name: Sec-WebSocket-Protocol
-            headers: { Host: l.ayovo.netlib.re }
-            max-early-data: 2560
-            path: /
+        type: trojan
     -
+        country: 🇭🇰HK
         name: '🇭🇰 香港 02'
-        password: BxceQaOe
-        port: 443
-        server: 58.152.46.60
-        skip-cert-verify: true
-        sni: '%252520%252520%252520%252520%252520%252520%252520%25255BBy%252520DukeMehdi%25255D%252520'
-        tls: true
-        type: trojan
-    -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
-        name: '🇭🇰 香港 03'
-        network: ws
-        port: 80
-        server: hkt.gotochinatown.net
-        servername: hkt.gotochinatown.net
-        skip-cert-verify: true
-        type: vmess
-        uuid: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-    -
-        client-fingerprint: chrome
-        name: '🇭🇰 香港 04'
-        password: BxceQaOe
-        port: 443
-        server: 58.152.46.60
-        skip-cert-verify: true
-        sni: '������+[By+DukeMehdi]+b2n.io/v2ray-configs+|+127+'
-        tls: true
-        type: trojan
-        udp: true
-    -
-        name: '🇭🇰 香港 05'
-        password: BxceQaOe
-        port: 443
-        server: 58.152.46.60
-        skip-cert-verify: true
-        sni: '%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B'
-        tls: true
-        type: trojan
-    -
-        country: 🇭🇰HK
-        name: '🇭🇰 香港 06'
         password: BxceQaOe
         port: 443
         server: 58.152.46.60
@@ -140,45 +98,85 @@ proxies:
         type: trojan
         udp: true
     -
-        name: '🇭🇰 香港 07'
+        name: '🇭🇰 香港 03'
         password: BxceQaOe
         port: 443
         server: 58.152.46.60
         skip-cert-verify: true
-        sni: '%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B88%2B'
+        sni: '%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%252B%255BBy%252BDukeMehdi%255D%252Bb2n.ir%252Fv2ray-configs%252B%257C%252B160%252B'
         tls: true
         type: trojan
+    -
+        name: '🇭🇰 香港 04'
+        password: BxceQaOe
+        port: 443
+        server: 58.152.46.60
+        skip-cert-verify: true
+        sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BEbraSha%5D%2B'
+        tls: true
+        type: trojan
+    -
+        name: '🇭🇰 香港 05'
+        password: BxceQaOe
+        port: 443
+        server: 58.152.46.60
+        skip-cert-verify: true
+        sni: '%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%2088%20'
+        tls: true
+        type: trojan
+    -
+        name: '🇭🇰 香港 06'
+        password: BxceQaOe
+        port: 443
+        server: 58.152.46.60
+        skip-cert-verify: true
+        sni: '%2B%2B%2B%2B%2B%2B%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B78%2B'
+        tls: true
+        type: trojan
+    -
+        country: 🏁ZZ
+        name: '🇭🇰 香港 07'
+        network: ws
+        port: 2095
+        server: 104.17.135.117
+        servername: snippets.pusytroller.cf
+        skip-cert-verify: true
+        type: vless
+        udp: true
+        uuid: ''
+        ws-opts:
+            headers: { Host: snippets.pusytroller.cf }
+            path: /
     -
         name: '🇭🇰 香港 08'
+        network: ws
+        port: 443
+        server: 104.18.40.176
+        servername: x-hk1.xaniusnippets.qzz.io
+        skip-cert-verify: false
+        tls: true
+        type: vless
+        udp: true
+        uuid: e258977b-e413-4718-a3af-02d75492c349
+        ws-opts:
+            headers: { Host: x-hk1.xaniusnippets.qzz.io }
+            path: '/?ed=2560'
+    -
+        name: '🇭🇰 香港 09'
         password: BxceQaOe
         port: 443
         server: 58.152.46.60
         skip-cert-verify: true
-        sni: '%25F0%259F%2594%2592%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520783%2520'
+        sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B127%2B'
         tls: true
         type: trojan
-    -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
-        name: '🇭🇰 香港 09'
-        network: ws
-        port: 80
-        server: hkt.gotochinatown.net
-        skip-cert-verify: true
-        type: vmess
-        uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-        ws-opts:
-            path: /
     -
         name: '🇭🇰 香港 10'
         password: BxceQaOe
         port: 443
         server: 58.152.46.60
         skip-cert-verify: true
-        sni: '%20'
+        sni: '%2B%5BBy%2BEbraSha%5D%2Btrojan-HK%2B'
         tls: true
         type: trojan
     -
@@ -187,7 +185,7 @@ proxies:
         port: 443
         server: 58.152.46.60
         skip-cert-verify: true
-        sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20%7C%20783%20'
+        sni: '%20%20%20%20%20%20%20%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%20%7C%20789%20'
         tls: true
         type: trojan
     -
@@ -196,7 +194,7 @@ proxies:
         port: 443
         server: 58.152.46.60
         skip-cert-verify: true
-        sni: '%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520934%2520'
+        sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20934%20'
         tls: true
         type: trojan
     -
@@ -209,60 +207,39 @@ proxies:
         tls: true
         type: trojan
     -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
         name: '🇭🇰 香港 14'
-        network: ws
-        port: 80
-        server: hkt.gotochinatown.net
-        servername: hkt.gotochinatown.net
+        password: BxceQaOe
+        port: 443
+        server: 58.152.46.60
         skip-cert-verify: true
-        type: vmess
-        uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9
-        ws-opts:
-            headers: { HOST: hkt.gotochinatown.net }
-            path: /
+        sni: '%20%20%20%20%20%20%2B%5BBy%2BDukeMehdi%5D%2B'
+        tls: true
+        type: trojan
     -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
         name: '🇭🇰 香港 15'
-        network: ws
-        port: 80
-        server: hkt.gotochinatown.net
-        servername: broadcastlv.chat.bilibili.com
+        password: BxceQaOe
+        port: 443
+        server: 58.152.46.60
         skip-cert-verify: true
-        type: vmess
-        uuid: 48e51dfa-db8f-11ed-a23f-f23c91369f2d
-        ws-opts:
-            headers: { HOST: broadcastlv.chat.bilibili.com }
-            path: /
+        sni: '%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2088%20'
+        tls: true
+        type: trojan
     -
-        alterId: 2
-        cipher: auto
         name: '🇭🇰 香港 16'
-        network: ws
-        port: 80
-        server: 135b340c-t8rds0-tighxj-12hj8.hkt.gotochinatown.net
-        tls: false
-        type: vmess
-        udp: true
-        uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
-        ws-opts:
-            headers: { Host: broadcastlv.chat.bilibili.com }
-            path: /
+        password: BxceQaOe
+        port: 443
+        server: 58.152.46.60
+        skip-cert-verify: true
+        sni: '%20%20%20%20%20%20%20%5BBy%20DukeMehdi%5D%20b2n.ir%2Fv2ray-configs%20'
+        tls: true
+        type: trojan
     -
         name: '🇭🇰 香港 17'
         password: BxceQaOe
         port: 443
         server: 58.152.46.60
         skip-cert-verify: true
-        sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%20%5BBy%20DukeMehdi%5D%20trojan-HK%20'
+        sni: '%20%5BBy%20EbraSha%5D%20trojan-HK%20'
         tls: true
         type: trojan
     -
@@ -271,7 +248,7 @@ proxies:
         port: 443
         server: 58.152.46.60
         skip-cert-verify: true
-        sni: '%2B%2B%2B%2B%2B%2B%2B%5BBy%2BEbraSha%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B178%2B'
+        sni: '%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%2088%20'
         tls: true
         type: trojan
     -
@@ -280,16 +257,49 @@ proxies:
         port: 443
         server: 58.152.46.60
         skip-cert-verify: true
-        sni: '%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%25EF%25BF%25BD%2520%255BBy%2520DukeMehdi%255D%2520b2n.ir%252Fv2ray-configs%2520%257C%2520160%2520'
+        sni: '%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD%2B%5BBy%2BDukeMehdi%5D%2Btrojan-HK%2B'
         tls: true
         type: trojan
     -
+        client-fingerprint: chrome
         name: '🇭🇰 香港 20'
+        network: ws
+        port: 443
+        server: 104.17.25.173
+        servername: l.ayovo.netlib.re
+        tls: true
+        type: vless
+        udp: true
+        uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+        ws-opts:
+            headers: { Host: l.ayovo.netlib.re }
+            path: '/?ed=2560'
+    -
+        name: '🇭🇰 香港 21'
         password: BxceQaOe
         port: 443
         server: 58.152.46.60
         skip-cert-verify: true
-        sni: '%20%20%20%20%20%20%20%5BBy%20EbraSha%5D%20b2n.ir%2Fv2ray-configs%20%7C%20868%20'
+        sni: '%252B%252B%252B%252B%252B%252B%252B%255BBy%252BEbraSha%255D%252Bb2n.ir%252Fv2ray-configs%252B%257C%252B83%252B'
+        tls: true
+        type: trojan
+    -
+        name: '🇭🇰 香港 22'
+        network: tcp
+        password: BxceQaOe
+        port: 443
+        server: 58.152.25.220
+        skip-cert-verify: true
+        sni: t.me%2Fripaojiedian
+        tls: true
+        type: trojan
+    -
+        name: '🇭🇰 香港 23'
+        password: BxceQaOe
+        port: 443
+        server: 58.152.46.60
+        skip-cert-verify: true
+        sni: '%20%20%20%20%20%20%2B%5BBy%2BDukeMehdi%5D%2Bb2n.ir%2Fv2ray-configs%2B%7C%2B868%2B'
         tls: true
         type: trojan
     -
@@ -298,28 +308,17 @@ proxies:
         country: 🇭🇰HK
         h2-opts: {  }
         http-opts: {  }
-        name: '🇭🇰 香港 21'
+        name: '🇭🇰 香港 24'
         network: ws
         port: 80
-        server: 0da0d02c-t70f40-t7j1ub-g3b3.hkt.gotochinatown.net
-        servername: broadcastlv.chat.bilibili.com
+        server: 84146e14-t6r5s0-tiuovf-v3c2.hkt.gotochinatown.net
+        servername: 84146e14-t6r5s0-tiuovf-v3c2.hkt.gotochinatown.net
         skip-cert-verify: true
         type: vmess
-        uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
-    -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
-        name: '🇭🇰 香港 22'
-        network: ws
-        port: 80
-        server: hkt.gotochinatown.net
-        servername: hkt.gotochinatown.net
-        skip-cert-verify: true
-        type: vmess
-        uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+        uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+        ws-opts:
+            headers: { HOST: 84146e14-t6r5s0-tiuovf-v3c2.hkt.gotochinatown.net }
+            path: /
     -
         name: '🇰🇷 韩国 01'
         type: ss
@@ -424,112 +423,116 @@ proxies:
             path: /
             headers: { Host: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net }
     -
+        client-fingerprint: chrome
+        name: '原生住宅 02'
+        network: tcp
+        port: 29028
+        reality-opts:
+            public-key: rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA
+        server: 142.171.217.19
+        servername: addons.mozilla.org
+        tls: true
+        type: vless
+        udp: true
+        uuid: 7426d51e-bb52-403d-e3bb-ef823d306766
+    -
+        name: '原生住宅 03'
+        password: ''
+        port: 7890
+        server: 122.225.62.2
+        skip-cert-verify: true
+        tls: false
+        type: http
+        username: ''
+    -
         alterId: 2
         cipher: auto
         country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
-        name: '原生住宅 02'
-        network: ws
-        port: 80
-        server: hkt.gotochinatown.net
-        servername: hkt.gotochinatown.net
-        skip-cert-verify: true
-        type: vmess
-        uuid: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
-    -
-        alterId: 2
-        cipher: auto
-        name: '原生住宅 03'
-        network: ws
-        port: 80
-        server: 8f6055e5-t8rds0-tbt8ox-1spnr.hkt.gotochinatown.net
-        tls: false
-        type: vmess
-        udp: true
-        uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
-        ws-opts:
-            headers: { Host: broadcastlv.chat.bilibili.com }
-            path: /
-    -
-        alterId: 2
-        cipher: auto
-        country: '🇭🇰 HK'
         h2-opts: {  }
         http-opts: {  }
         name: '原生住宅 04'
         network: ws
         port: 80
         server: hkt.gotochinatown.net
+        servername: broadcastlv.chat.bilibili.com
         skip-cert-verify: true
         type: vmess
-        uuid: de003c72-0157-11ef-86da-f23c91cfbbc9
+        uuid: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
         ws-opts:
+            headers: { HOST: broadcastlv.chat.bilibili.com }
             path: /
-    -
-        name: '原生住宅 05'
-        password: exaxgqkKkd0TAMrCxeonWg==
-        port: 1443
-        server: twmoon1-cdn-route.couldflare-cdn.com
-        tls: true
-        type: http
-        udp: true
-        username: mrwdfNTD8M79LCukCieldrqZWqs=
     -
         alterId: 2
         cipher: auto
         country: 🇭🇰HK
+        h2-opts: {  }
+        http-opts: {  }
+        name: '原生住宅 05'
+        network: ws
+        port: 80
+        server: hkt.gotochinatown.net
+        servername: hkt.gotochinatown.net
+        skip-cert-verify: true
+        type: vmess
+        uuid: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+        ws-opts:
+            headers: { HOST: hkt.gotochinatown.net }
+            path: /
+    -
+        alterId: 2
+        cipher: auto
         h2-opts: {  }
         http-opts: {  }
         name: '原生住宅 06'
         network: ws
         port: 80
-        server: hkt.gotochinatown.net
-        servername: hkt.gotochinatown.net
-        skip-cert-verify: true
+        server: 5da55a07-t8pj40-trftb1-1psmw.hkt.gotochinatown.net
         type: vmess
-        uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9
+        udp: true
+        uuid: 42bb6d36-97c7-11ee-be7f-f23c9164ca5d
     -
         alterId: 2
         cipher: auto
-        country: '🇭🇰 HK'
+        country: 🇭🇰HK
         h2-opts: {  }
         http-opts: {  }
         name: '原生住宅 07'
         network: ws
         port: 80
-        server: hkt.gotochinatown.net
+        server: c558c52a-t6r5s0-tc61cs-1tja8.hkt.gotochinatown.net
+        servername: c558c52a-t6r5s0-tc61cs-1tja8.hkt.gotochinatown.net
         skip-cert-verify: true
         type: vmess
-        uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
+        uuid: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d
     -
         alterId: 2
         cipher: auto
-        country: 🇭🇰HK
         h2-opts: {  }
         http-opts: {  }
         name: '原生住宅 08'
         network: ws
         port: 80
-        server: hkt.gotochinatown.net
-        servername: hkt.gotochinatown.net
-        skip-cert-verify: true
+        server: 1384913f-t8lts0-t9lm1q-1p1b.hkt.gotochinatown.net
         type: vmess
-        uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+        udp: true
+        uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+        ws-opts:
+            headers: { Host: broadcastlv.chat.bilibili.com }
+            path: /
     -
         alterId: 2
         cipher: auto
-        country: 🇭🇰HK
         h2-opts: {  }
         http-opts: {  }
         name: '原生住宅 09'
         network: ws
         port: 80
         server: hkt.gotochinatown.net
-        servername: broadcastlv.chat.bilibili.com
+        servername: hkt.gotochinatown.net
         skip-cert-verify: true
         type: vmess
-        uuid: 80aa5178-f936-11ed-8ce6-f23c91369f2d
+        udp: true
+        uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
     -
         alterId: 2
         cipher: auto
@@ -539,25 +542,30 @@ proxies:
         name: '原生住宅 10'
         network: ws
         port: 80
-        server: hkt.gotochinatown.net
+        server: adfda0ab-t70f40-tcop2n-tl32.hkt.gotochinatown.net
         servername: broadcastlv.chat.bilibili.com
         skip-cert-verify: true
         type: vmess
-        uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d
+        uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+        ws-opts:
+            headers: { HOST: broadcastlv.chat.bilibili.com }
+            path: /
     -
         alterId: 2
         cipher: auto
+        country: 🇭🇰HK
         h2-opts: {  }
         http-opts: {  }
         name: '原生住宅 11'
         network: ws
         port: 80
-        server: hkt.gotochinatown.net
+        server: a9da8b8e-t70f40-t781gb-1fqef.hkt.gotochinatown.net
+        servername: broadcastlv.chat.bilibili.com
+        skip-cert-verify: true
         type: vmess
-        udp: true
-        uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+        uuid: 1239028c-a825-11ed-a0ca-f23c9164ca5d
         ws-opts:
-            headers: { Host: broadcastlv.chat.bilibili.com }
+            headers: { HOST: broadcastlv.chat.bilibili.com }
             path: /
     -
         alterId: 2
@@ -569,26 +577,26 @@ proxies:
         network: ws
         port: 80
         server: hkt.gotochinatown.net
-        servername: broadcastlv.chat.bilibili.com
+        servername: hkt.gotochinatown.net
         skip-cert-verify: true
         type: vmess
-        uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+        uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
     -
         alterId: 2
         cipher: auto
-        country: '🇭🇰 HK'
-        http-opts: {  }
         name: '原生住宅 13'
         network: ws
         port: 80
-        server: hkt.gotochinatown.net
-        servername: broadcastlv.chat.bilibili.com
-        skip-cert-verify: true
+        server: cd5a4e76-t70f40-t7dv8l-1szgv.hkt.gotochinatown.net
+        skip-cert-verify: false
+        tls: false
         type: vmess
-        uuid: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+        udp: true
+        uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
         ws-opts:
-            headers: { HOST: broadcastlv.chat.bilibili.com }
+            headers: { Host: cd5a4e76-t70f40-t7dv8l-1szgv.hkt.gotochinatown.net }
             path: /
+        xudp: true
     -
         alterId: 2
         cipher: auto
@@ -598,13 +606,13 @@ proxies:
         name: '原生住宅 14'
         network: ws
         port: 80
-        server: hkt.gotochinatown.net
-        servername: hkt.gotochinatown.net
+        server: c7e6deaa-t6r5s0-tm23vf-1jk6u.hkt.gotochinatown.net
+        servername: c7e6deaa-t6r5s0-tm23vf-1jk6u.hkt.gotochinatown.net
         skip-cert-verify: true
         type: vmess
-        uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+        uuid: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
         ws-opts:
-            headers: { HOST: hkt.gotochinatown.net }
+            headers: { HOST: c7e6deaa-t6r5s0-tm23vf-1jk6u.hkt.gotochinatown.net }
             path: /
     -
         alterId: 2
@@ -615,32 +623,28 @@ proxies:
         name: '原生住宅 15'
         network: ws
         port: 80
-        server: e66ecabe-t7h340-tq9o8d-1d3bw.hkt.gotochinatown.net
-        servername: e66ecabe-t7h340-tq9o8d-1d3bw.hkt.gotochinatown.net
+        server: d3cc8573-t70f40-tm3dx0-1r9dt.hkt.gotochinatown.net
+        servername: d3cc8573-t70f40-tm3dx0-1r9dt.hkt.gotochinatown.net
         skip-cert-verify: true
         type: vmess
-        uuid: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
+        uuid: de003c72-0157-11ef-86da-f23c91cfbbc9
         ws-opts:
-            headers: { HOST: e66ecabe-t7h340-tq9o8d-1d3bw.hkt.gotochinatown.net }
+            headers: { HOST: d3cc8573-t70f40-tm3dx0-1r9dt.hkt.gotochinatown.net }
             path: /
     -
         alterId: 2
         cipher: auto
-        client-fingerprint: chrome
-        delay: 2421
+        country: 🇭🇰HK
+        h2-opts: {  }
+        http-opts: {  }
         name: '原生住宅 16'
         network: ws
         port: 80
-        server: hkt.gotochinatown.net
-        servername: hkt.gotochinatown.net
+        server: b4d8231e-t70f40-te0v28-1mh67.hkt.gotochinatown.net
+        servername: b4d8231e-t70f40-te0v28-1mh67.hkt.gotochinatown.net
         skip-cert-verify: true
-        tls: false
         type: vmess
-        udp: true
-        uuid: 99129cef-f705-11ee-ada6-f23c91cfbbc9
-        ws-opts:
-            headers: { Host: hkt.gotochinatown.net }
-            path: /
+        uuid: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
     -
         alterId: 2
         cipher: auto
@@ -650,26 +654,28 @@ proxies:
         name: '原生住宅 17'
         network: ws
         port: 80
-        server: hkt.gotochinatown.net
+        server: 6d3b5b9f-t8pj40-trg4wh-z65w.hkt.gotochinatown.net
+        servername: broadcastlv.chat.bilibili.com
         skip-cert-verify: true
         type: vmess
-        uuid: 99129cef-f705-11ee-ada6-f23c91cfbbc9
+        uuid: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
         ws-opts:
+            headers: { HOST: broadcastlv.chat.bilibili.com }
             path: /
     -
         alterId: 2
         cipher: auto
-        country: '🇭🇰 HK'
+        country: 🇭🇰HK
         h2-opts: {  }
         http-opts: {  }
         name: '原生住宅 18'
         network: ws
         port: 80
         server: hkt.gotochinatown.net
-        servername: broadcastlv.chat.bilibili.com
+        servername: hkt.gotochinatown.net
         skip-cert-verify: true
         type: vmess
-        uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+        uuid: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
     -
         alterId: 2
         cipher: auto
@@ -678,12 +684,12 @@ proxies:
         name: '原生住宅 19'
         network: ws
         port: 80
-        server: e66ecabe-t7h340-tq9o8d-1d3bw.hkt.gotochinatown.net
+        server: c64f936b-t8rds0-tcuz7t-1ta58.hkt.gotochinatown.net
         type: vmess
         udp: true
-        uuid: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
+        uuid: e2d8b574-e089-11ef-9cc7-f23c9164ca5d
         ws-opts:
-            headers: { Host: e66ecabe-t7h340-tq9o8d-1d3bw.hkt.gotochinatown.net }
+            headers: { Host: broadcastlv.chat.bilibili.com }
             path: /
     -
         alterId: 2
@@ -694,11 +700,27 @@ proxies:
         name: '原生住宅 20'
         network: ws
         port: 80
+        server: d810744e-t70f40-tcp4th-1c4g6.hkt.gotochinatown.net
+        servername: d810744e-t70f40-tcp4th-1c4g6.hkt.gotochinatown.net
+        skip-cert-verify: true
+        type: vmess
+        uuid: 676c67c6-5e73-11ee-9a79-f23c9164ca5d
+        ws-opts:
+            headers: { HOST: d810744e-t70f40-tcp4th-1c4g6.hkt.gotochinatown.net }
+            path: /
+    -
+        alterId: 2
+        cipher: auto
+        country: '🇭🇰 HK'
+        http-opts: {  }
+        name: '原生住宅 21'
+        network: ws
+        port: 80
         server: hkt.gotochinatown.net
         servername: broadcastlv.chat.bilibili.com
         skip-cert-verify: true
         type: vmess
-        uuid: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d
+        uuid: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
         ws-opts:
             headers: { HOST: broadcastlv.chat.bilibili.com }
             path: /
@@ -708,58 +730,48 @@ proxies:
         country: 🇭🇰HK
         h2-opts: {  }
         http-opts: {  }
-        name: '原生住宅 21'
+        name: '原生住宅 22'
         network: ws
         port: 80
         server: hkt.gotochinatown.net
         servername: hkt.gotochinatown.net
         skip-cert-verify: true
         type: vmess
-        uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
-        ws-opts:
-            headers: { HOST: hkt.gotochinatown.net }
-            path: /
+        uuid: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
     -
         alterId: 2
         cipher: auto
-        name: '原生住宅 22'
-        network: ws
-        port: 80
-        server: e5f83330-t8t8g0-t96zrt-1gevg.hkt.gotochinatown.net
-        tls: false
-        type: vmess
-        udp: true
-        uuid: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-        ws-opts:
-            headers: { Host: broadcastlv.chat.bilibili.com }
-            path: /
-    -
-        alterId: 2
-        cipher: auto
+        country: 🇭🇰HK
+        delay: 371
+        h2-opts: {  }
+        http-opts: {  }
         name: '原生住宅 23'
         network: ws
         port: 80
-        server: 887d2112-t8pj40-tcdlur-1qwom.hkt.gotochinatown.net
-        tls: false
+        server: hkt.gotochinatown.net
+        servername: broadcastlv.chat.bilibili.com
+        skip-cert-verify: true
         type: vmess
-        udp: true
-        uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+        uuid: 80aa5178-f936-11ed-8ce6-f23c91369f2d
         ws-opts:
-            headers: { Host: 887d2112-t8pj40-tcdlur-1qwom.hkt.gotochinatown.net }
+            headers: { HOST: broadcastlv.chat.bilibili.com }
             path: /
     -
         alterId: 2
         cipher: auto
+        country: 🇭🇰HK
+        h2-opts: {  }
+        http-opts: {  }
         name: '原生住宅 24'
         network: ws
         port: 80
-        server: 6e307805-t8rds0-tiuovf-v3c2.hkt.gotochinatown.net
-        tls: false
+        server: 189f87a1-t6r5s0-tcop2n-tl32.hkt.gotochinatown.net
+        servername: broadcastlv.chat.bilibili.com
+        skip-cert-verify: true
         type: vmess
-        udp: true
-        uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+        uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
         ws-opts:
-            headers: { Host: broadcastlv.chat.bilibili.com }
+            headers: { HOST: broadcastlv.chat.bilibili.com }
             path: /
     -
         alterId: 2
@@ -770,56 +782,41 @@ proxies:
         name: '原生住宅 25'
         network: ws
         port: 80
-        server: hkt.gotochinatown.net
-        servername: hkt.gotochinatown.net
+        server: 03199e4c-t6r5s0-tbnucr-1thfv.hkt.gotochinatown.net
+        servername: 03199e4c-t6r5s0-tbnucr-1thfv.hkt.gotochinatown.net
         skip-cert-verify: true
         type: vmess
-        uuid: ee1b9e94-9b95-11ef-8967-f23c91cfbbc9
+        uuid: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b
+        ws-opts:
+            headers: { HOST: 03199e4c-t6r5s0-tbnucr-1thfv.hkt.gotochinatown.net }
+            path: /
     -
         alterId: 2
         cipher: auto
-        country: 🇭🇰HK
         h2-opts: {  }
         http-opts: {  }
         name: '原生住宅 26'
         network: ws
         port: 80
-        server: hkt.gotochinatown.net
-        servername: broadcastlv.chat.bilibili.com
-        skip-cert-verify: true
+        server: 228192e7-t8pj40-tpaqgu-1smhu.hkt.gotochinatown.net
         type: vmess
-        uuid: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+        udp: true
+        uuid: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
         ws-opts:
-            headers: { HOST: broadcastlv.chat.bilibili.com }
+            headers: { Host: broadcastlv.chat.bilibili.com }
             path: /
     -
         alterId: 2
         cipher: auto
-        country: 🇭🇰HK
         h2-opts: {  }
         http-opts: {  }
         name: '原生住宅 27'
         network: ws
         port: 80
         server: hkt.gotochinatown.net
-        servername: broadcastlv.chat.bilibili.com
-        skip-cert-verify: true
-        type: vmess
-        uuid: 7c077572-6da9-11ef-b786-f23c91cfbbc9
-        ws-opts:
-            headers: { HOST: broadcastlv.chat.bilibili.com }
-            path: /
-    -
-        alterId: 2
-        cipher: auto
-        name: '原生住宅 28'
-        network: ws
-        port: 80
-        server: c15959e3-t8t8g0-tcdlur-1qwom.hkt.gotochinatown.net
-        tls: false
         type: vmess
         udp: true
-        uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
+        uuid: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
         ws-opts:
             headers: { Host: broadcastlv.chat.bilibili.com }
             path: /
@@ -829,16 +826,31 @@ proxies:
         country: 🇭🇰HK
         h2-opts: {  }
         http-opts: {  }
+        name: '原生住宅 28'
+        network: ws
+        port: 80
+        server: eb552654-t6r5s0-te0v28-1mh67.hkt.gotochinatown.net
+        servername: eb552654-t6r5s0-te0v28-1mh67.hkt.gotochinatown.net
+        skip-cert-verify: true
+        type: vmess
+        uuid: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+        ws-opts:
+            headers: { HOST: eb552654-t6r5s0-te0v28-1mh67.hkt.gotochinatown.net }
+            path: /
+    -
+        alterId: 2
+        cipher: auto
+        h2-opts: {  }
+        http-opts: {  }
         name: '原生住宅 29'
         network: ws
         port: 80
         server: hkt.gotochinatown.net
-        servername: hkt.gotochinatown.net
-        skip-cert-verify: true
         type: vmess
-        uuid: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b
+        udp: true
+        uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
         ws-opts:
-            headers: { HOST: hkt.gotochinatown.net }
+            headers: { Host: broadcastlv.chat.bilibili.com }
             path: /
     -
         alterId: 2
@@ -853,23 +865,20 @@ proxies:
         servername: hkt.gotochinatown.net
         skip-cert-verify: true
         type: vmess
-        uuid: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-        ws-opts:
-            headers: { HOST: hkt.gotochinatown.net }
-            path: /
+        uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
     -
         alterId: 2
         cipher: auto
         name: '原生住宅 31'
         network: ws
         port: 80
-        server: 77e3ad64-t8t8g0-tnsc3a-1f0gu.hkt.gotochinatown.net
+        server: 887d2112-t8pj40-tcdlur-1qwom.hkt.gotochinatown.net
         tls: false
         type: vmess
         udp: true
-        uuid: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+        uuid: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
         ws-opts:
-            headers: { Host: broadcastlv.chat.bilibili.com }
+            headers: { Host: 887d2112-t8pj40-tcdlur-1qwom.hkt.gotochinatown.net }
             path: /
     -
         alterId: 2
@@ -880,292 +889,21 @@ proxies:
         name: '原生住宅 32'
         network: ws
         port: 80
-        server: hkt.gotochinatown.net
-        servername: hkt.gotochinatown.net
+        server: 928fa540-t6r5s0-t9byd7-1jfvb.hkt.gotochinatown.net
+        servername: 928fa540-t6r5s0-t9byd7-1jfvb.hkt.gotochinatown.net
         skip-cert-verify: true
         type: vmess
-        uuid: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d
+        uuid: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d
         ws-opts:
-            headers: { HOST: hkt.gotochinatown.net }
+            headers: { HOST: 928fa540-t6r5s0-t9byd7-1jfvb.hkt.gotochinatown.net }
             path: /
     -
         alterId: 2
         cipher: auto
-        country: 🇭🇰HK
+        country: '🇭🇰 HK'
         h2-opts: {  }
         http-opts: {  }
         name: '原生住宅 33'
-        network: ws
-        port: 80
-        server: c558c52a-t6r5s0-tc61cs-1tja8.hkt.gotochinatown.net
-        servername: c558c52a-t6r5s0-tc61cs-1tja8.hkt.gotochinatown.net
-        skip-cert-verify: true
-        type: vmess
-        uuid: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d
-        ws-opts:
-            headers: { HOST: c558c52a-t6r5s0-tc61cs-1tja8.hkt.gotochinatown.net }
-            path: /
-    -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
-        name: '原生住宅 34'
-        network: ws
-        port: 80
-        server: hkt.gotochinatown.net
-        skip-cert-verify: true
-        type: vmess
-        uuid: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
-        ws-opts:
-            path: /
-    -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
-        name: '原生住宅 35'
-        network: ws
-        port: 80
-        server: 2fdb089e-t8nog0-tcr97d-2b2n.hkt.gotochinatown.net
-        servername: broadcastlv.chat.bilibili.com
-        skip-cert-verify: true
-        type: vmess
-        uuid: fcd39788-ca23-11ed-86e2-f23c913c8d2b
-    -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
-        name: '原生住宅 36'
-        network: ws
-        port: 80
-        server: hkt.gotochinatown.net
-        servername: hkt.gotochinatown.net
-        skip-cert-verify: true
-        type: vmess
-        uuid: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
-        ws-opts:
-            headers: { HOST: hkt.gotochinatown.net }
-            path: /
-    -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
-        name: '原生住宅 37'
-        network: ws
-        port: 80
-        server: hkt.gotochinatown.net
-        servername: broadcastlv.chat.bilibili.com
-        skip-cert-verify: true
-        type: vmess
-        uuid: ba7a37e3-033a-e1ab-06f6-9027aa4630f5
-        ws-opts:
-            headers: { HOST: broadcastlv.chat.bilibili.com }
-            path: /
-    -
-        alterId: 2
-        cipher: auto
-        country: '🇭🇰 HK'
-        h2-opts: {  }
-        http-opts: {  }
-        name: '原生住宅 38'
-        network: ws
-        port: 80
-        server: hkt.gotochinatown.net
-        skip-cert-verify: true
-        type: vmess
-        uuid: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9
-        ws-opts:
-            path: /
-    -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
-        name: '原生住宅 39'
-        network: ws
-        port: 80
-        server: hkt.gotochinatown.net
-        servername: broadcastlv.chat.bilibili.com
-        skip-cert-verify: true
-        type: vmess
-        uuid: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
-    -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
-        name: '原生住宅 40'
-        network: ws
-        port: 80
-        server: ec130d51-t6pb40-t72h4q-1spnr.hkt.gotochinatown.net
-        servername: broadcastlv.chat.bilibili.com
-        skip-cert-verify: true
-        type: vmess
-        uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
-        ws-opts:
-            headers: { HOST: broadcastlv.chat.bilibili.com }
-            path: /
-    -
-        cipher: aes-256-cfb
-        name: '原生住宅 41'
-        password: qwerREWQ@@
-        port: 13979
-        server: 221.139.79.57
-        type: ss
-        udp: true
-    -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
-        name: '原生住宅 42'
-        network: ws
-        port: 80
-        server: d90d72cd-t6r5s0-t95ncr-1slop.hkt.gotochinatown.net
-        servername: d90d72cd-t6r5s0-t95ncr-1slop.hkt.gotochinatown.net
-        skip-cert-verify: true
-        type: vmess
-        uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d
-        ws-opts:
-            headers: { HOST: d90d72cd-t6r5s0-t95ncr-1slop.hkt.gotochinatown.net }
-            path: /
-    -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
-        name: '原生住宅 43'
-        network: ws
-        port: 80
-        server: hkt.gotochinatown.net
-        servername: broadcastlv.chat.bilibili.com
-        skip-cert-verify: true
-        type: vmess
-        uuid: b58095f0-52dc-11ef-bc74-f23c91cfbbc9
-        ws-opts:
-            headers: { HOST: broadcastlv.chat.bilibili.com }
-            path: /
-    -
-        alterId: 2
-        cipher: auto
-        h2-opts: {  }
-        http-opts: {  }
-        name: '原生住宅 44'
-        network: ws
-        port: 80
-        server: 584ebfbe-t8pj40-tc5odo-1mh85.hkt.gotochinatown.net
-        type: vmess
-        udp: true
-        uuid: cf7331fa-bfeb-11ed-a807-f23c913c8d2b
-        ws-opts:
-            headers: { Host: broadcastlv.chat.bilibili.com }
-            path: /
-    -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        delay: 285
-        h2-opts: {  }
-        http-opts: {  }
-        name: '原生住宅 45'
-        network: ws
-        port: 80
-        server: hkt.gotochinatown.net
-        servername: broadcastlv.chat.bilibili.com
-        skip-cert-verify: true
-        type: vmess
-        uuid: 94d40708-8273-11ea-8fc9-f23c913c8d2b
-        ws-opts:
-            headers: { HOST: broadcastlv.chat.bilibili.com }
-            path: /
-    -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
-        name: '原生住宅 46'
-        network: ws
-        port: 80
-        server: hkt.gotochinatown.net
-        servername: hkt.gotochinatown.net
-        skip-cert-verify: true
-        type: vmess
-        uuid: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-    -
-        name: '原生住宅 47'
-        password: BxceQaOe
-        port: 443
-        server: 58.152.25.220
-        skip-cert-verify: true
-        sni: t.me%2Fripaojiedian
-        tls: true
-        type: trojan
-    -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
-        name: '原生住宅 48'
-        network: ws
-        port: 80
-        server: hkt.gotochinatown.net
-        servername: broadcastlv.chat.bilibili.com
-        skip-cert-verify: true
-        type: vmess
-        uuid: fcd39788-ca23-11ed-86e2-f23c913c8d2b
-        ws-opts:
-            headers: { HOST: broadcastlv.chat.bilibili.com }
-            path: /
-    -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
-        name: '原生住宅 49'
-        network: ws
-        port: 80
-        server: hkt.gotochinatown.net
-        servername: hkt.gotochinatown.net
-        skip-cert-verify: true
-        type: vmess
-        uuid: 45bc25b2-1a10-11ed-91c0-f23c91cfbbc9
-    -
-        alterId: 2
-        cipher: auto
-        country: '🇭🇰 HK'
-        http-opts: {  }
-        name: '原生住宅 50'
-        network: ws
-        port: 80
-        server: hkt.gotochinatown.net
-        servername: broadcastlv.chat.bilibili.com
-        skip-cert-verify: true
-        type: vmess
-        uuid: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
-        ws-opts:
-            headers: { HOST: broadcastlv.chat.bilibili.com }
-            path: /
-    -
-        alterId: 2
-        cipher: auto
-        country: '🇭🇰 HK'
-        h2-opts: {  }
-        http-opts: {  }
-        name: '原生住宅 51'
         network: ws
         port: 80
         server: hkt.gotochinatown.net
@@ -1177,95 +915,120 @@ proxies:
     -
         alterId: 2
         cipher: auto
-        name: '原生住宅 52'
-        network: ws
-        port: 80
-        server: f7db5808-t8rds0-tbnlwl-1qaek.hkt.gotochinatown.net
-        tls: false
-        type: vmess
-        udp: true
-        uuid: 98cedeca-99a0-11ef-bb64-f23c913c8d2b
-        ws-opts:
-            headers: { Host: broadcastlv.chat.bilibili.com }
-            path: /
-    -
-        alterId: 2
-        cipher: auto
-        country: '🇭🇰 HK'
+        country: 🇭🇰HK
         h2-opts: {  }
         http-opts: {  }
-        name: '原生住宅 53'
+        name: '原生住宅 34'
         network: ws
         port: 80
-        server: hkt.gotochinatown.net
-        servername: broadcastlv.chat.bilibili.com
+        server: 44a1b64f-t77ts0-tb592v-4lg6.hkt.gotochinatown.net
         skip-cert-verify: true
         type: vmess
-        uuid: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
+        uuid: a4c9b7cc-a816-11ed-9f65-f23c9164ca5d
+        ws-opts:
+            path: /
     -
         alterId: 2
         cipher: auto
         country: 🇭🇰HK
         h2-opts: {  }
         http-opts: {  }
-        name: '原生住宅 54'
+        name: '原生住宅 35'
         network: ws
         port: 80
-        server: hkt.gotochinatown.net
+        server: 95930bfa-t70f40-t83bw1-1f596.hkt.gotochinatown.net
+        servername: broadcastlv.chat.bilibili.com
         skip-cert-verify: true
         type: vmess
-        uuid: 3952a514-eaa7-11ef-97da-f23c91cfbbc9
+        uuid: e3975a05-b89e-11ec-a50d-f23c91cfbbc9
         ws-opts:
+            headers: { HOST: broadcastlv.chat.bilibili.com }
             path: /
     -
-        country: 🇺🇸US
-        name: '广播商宽 01'
-        password: telegram-id-privatevpns
-        port: 22222
-        server: 63.181.220.145
+        name: '🇮🇳IN²_1|9.9MB/s|X|History 01'
+        password: ''
+        port: 1080
+        server: 64.227.131.240
         skip-cert-verify: true
-        sni: trojan.burgerip.co.uk
-        tls: true
-        type: trojan
-        udp: true
+        type: socks5
+        username: ''
     -
-        client-fingerprint: firefox
-        name: '广播商宽 02'
-        port: 587
+        name: '广播机房 01'
+        network: ws
+        port: 80
+        server: 146.75.119.82
+        type: vless
+        udp: true
+        uuid: 74542945-0d84-4797-a56e-e7f31b84c5be
+        ws-opts:
+            headers: { Host: welcomtofreeboarders.com, User-Agent: 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.63 Safari/537.36' }
+            path: 'ws/?ed=2048/@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz@AzadMarz/?2048'
+        xudp: true
+    -
+        client-fingerprint: chrome
+        encryption: none
+        grpc-opts:
+            grpc-service-name: grpc
+        name: '广播机房 02'
+        network: grpc
+        port: 22955
         reality-opts:
-            public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
-            short-id: 916e8258c4a01b02
-        server: turkiye.torprospeed.ir
-        servername: excoino.com
-        skip-cert-verify: false
+            public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+            short-id: 6ba85179e30d4fc2
+        server: dfg.octopusss.net
+        servername: one-piece.com
         tls: true
         type: vless
         udp: true
-        uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
+        uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+        xudp: true
+    -
+        name: '广播机房 03'
+        password: 'M7v%w11Se*'
+        port: 443
+        server: tttyder.wsone.icu
+        skip-cert-verify: true
+        sni: tttyder.wsone.icu
+        tls: true
+        type: trojan
     -
         cipher: aes-256-cfb
-        country: '🏁 ZZ'
-        name: '🇻🇳VN²_1|0.6MB/s|GPT⁺|GM|X|History 01'
-        password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-        port: 38388
-        server: 103.186.155.36
+        country: '🇪🇸 ES'
+        name: '广播机房 04'
+        password: VcFuyXvND2yQWSFY
+        port: 9054
+        server: 5.188.181.201
         type: ss
     -
-        cipher: aes-256-cfb
-        country: '🏁 ZZ'
-        name: '原生机房 01'
-        password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-        port: 38388
-        server: 103.186.155.136
-        type: ss
+        client-fingerprint: chrome
+        delay: 744
+        name: '广播机房 05'
+        network: ws
+        port: 80
+        server: 151.101.3.8
+        servername: mitivpn.global.ssl.fastly.net
+        tls: false
+        type: vless
+        uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+        ws-opts:
+            headers: { Host: mitivpn.global.ssl.fastly.net }
+            path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
     -
-        cipher: aes-256-cfb
-        country: '🏁 ZZ'
-        name: '原生机房 02'
-        password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-        port: 38388
-        server: 103.186.154.189
-        type: ss
+        client-fingerprint: chrome
+        encryption: none
+        name: '广播机房 06'
+        network: ws
+        port: 443
+        server: cloudflare.182682.xyz
+        servername: l.ayovo.netlib.re
+        tls: true
+        type: vless
+        udp: true
+        uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+        ws-opts:
+            headers: { Host: l.ayovo.netlib.re, User-Agent: 'Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36' }
+            path: '/?ed=2560'
+        xudp: true
     -
         client-fingerprint: chrome
         encryption: none
@@ -1273,7 +1036,77 @@ proxies:
         http-opts:
             headers: {  }
             path: [/]
-        name: '原生机房 03'
+        name: '广播机房 07'
+        network: tcp
+        port: 443
+        reality-opts:
+            public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+            short-id: c7e42004e5f024be
+        server: 176.109.104.107
+        servername: sun6-21.userapi.com
+        tls: true
+        type: vless
+        udp: true
+        uuid: cc61ea7c-92f2-4c2d-b272-32cfe8fdf99f
+        xudp: true
+    -
+        encryption: none
+        name: '广播机房 08'
+        network: ws
+        port: 80
+        server: 151.101.3.8
+        type: vless
+        udp: true
+        uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
+        ws-opts:
+            headers: { Host: mitivpn.global.ssl.fastly.net, User-Agent: 'Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36' }
+            path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
+        xudp: true
+    -
+        client-fingerprint: chrome
+        delay: 1261
+        name: '广播机房 09'
+        network: ws
+        port: 443
+        server: cloudflare.182682.xyz
+        servername: l.ayovo.netlib.re
+        tls: true
+        type: vless
+        uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+        ws-opts:
+            early-data-header-name: Sec-WebSocket-Protocol
+            headers: { Host: l.ayovo.netlib.re }
+            max-early-data: 2560
+            path: /
+    -
+        cipher: rc4-md5
+        country: 🇸🇬SG
+        name: '广播机房 10'
+        password: 14fFPrbezE3HDZzsMOr6
+        port: 8080
+        server: 68.183.227.4
+        type: ss
+    -
+        name: '原生机房 01'
+        network: ws
+        password: 9df3b593-6423-4d06-b12e-d9dc45b5860f
+        port: 443
+        server: fuchsia.qzz.io
+        sni: fuchsia.qzz.io
+        tls: true
+        type: trojan
+        udp: true
+        ws-opts:
+            headers: { Host: fuchsia.qzz.io }
+            path: '/218.150.225.33:50001'
+    -
+        client-fingerprint: chrome
+        encryption: none
+        flow: xtls-rprx-vision
+        http-opts:
+            headers: {  }
+            path: [/]
+        name: '原生机房 02'
         network: tcp
         port: 443
         reality-opts:
@@ -1290,58 +1123,245 @@ proxies:
         client-fingerprint: chrome
         encryption: none
         flow: xtls-rprx-vision
-        name: '原生机房 04'
+        http-opts:
+            headers: {  }
+            path: [/]
+        name: '原生机房 03'
         network: tcp
-        port: 443
+        port: 7443
         reality-opts:
-            public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-            short-id: 1ed136481e0ede74
-        server: japan.geodema.network
-        servername: japan.geodema.network
+            public-key: BTkKaFt2xac4xAHn3EXrBKV0d8ItHSfciMFnxg57BGA
+            short-id: fd88bd27db4cc661
+        server: 45.139.26.152
+        servername: eh.vk.com
         tls: true
         type: vless
         udp: true
-        uuid: a11ab9c5-4155-430b-9efc-7a7122531382
+        uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
         xudp: true
     -
-        cipher: aes-256-cfb
-        country: '🏁 ZZ'
+        encryption: none
+        name: '原生机房 04'
+        network: ws
+        port: 8880
+        server: 25.25.25.0
+        type: vless
+        udp: true
+        uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
+        ws-opts:
+            headers: { Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir, User-Agent: 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0' }
+            path: '/?ed=8880'
+        xudp: true
+    -
         name: '原生机房 05'
-        password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-        port: 38388
-        server: 103.186.155.84
+        password: ''
+        port: 1080
+        server: 5.255.117.127
+        skip-cert-verify: true
+        type: socks5
+        username: ''
+    -
+        client-fingerprint: chrome
+        delay: 1518
+        name: '原生机房 06'
+        network: ws
+        port: 443
+        server: 104.21.227.134
+        servername: l.ayovo.netlib.re
+        tls: true
+        type: vless
+        uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+        ws-opts:
+            early-data-header-name: Sec-WebSocket-Protocol
+            headers: { Host: l.ayovo.netlib.re }
+            max-early-data: 2560
+            path: /
+    -
+        client-fingerprint: chrome
+        delay: 398
+        name: '原生机房 07'
+        network: ws
+        port: 443
+        server: 162.159.16.63
+        servername: l.ayovo.netlib.re
+        tls: true
+        type: vless
+        udp: true
+        uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+        ws-opts:
+            early-data-header-name: Sec-WebSocket-Protocol
+            headers: { Host: l.ayovo.netlib.re }
+            max-early-data: 2560
+            path: /
+    -
+        encryption: none
+        name: '原生机房 08'
+        network: ws
+        port: 80
+        server: oon.visaups.ir
+        type: vless
+        udp: true
+        uuid: 087d8602-503b-4091-9f05-44c20792083c
+        ws-opts:
+            headers: { Host: oon.visaups.ir, User-Agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36' }
+            path: /
+        xudp: true
+    -
+        cipher: chacha20-ietf-poly1305
+        country: '🇳🇱 NL'
+        name: '原生机房 09'
+        password: QCXDxuDlTTMD7jtgHUjIoj
+        port: 8080
+        server: 151.242.251.131
         type: ss
+    -
+        client-fingerprint: chrome
+        encryption: none
+        grpc-opts:
+            grpc-service-name: grpc
+        name: '原生机房 10'
+        network: grpc
+        port: 22955
+        reality-opts:
+            public-key: 9Mt_Y8J_qDb1khlieWnhDSAq-kGtLHw6aOKgkAzOMms
+            short-id: 6ba85179e30d4fc2
+        server: octopusss5.info
+        servername: one-piece.com
+        tls: true
+        type: vless
+        udp: true
+        uuid: 63f92f3c-447c-4283-80b9-0af8e164cdad
+        xudp: true
+    -
+        name: '原生机房 11'
+        network: ws
+        port: 8880
+        server: clean.photoggenic.ir
+        type: vless
+        udp: true
+        uuid: 8e997404-cb62-4fa1-a8c9-c77a32f10153
+        ws-opts:
+            headers: { Host: rightel.IRANCEELL.mci.it.www.speedtest.net.zula.ir.focusontrade.ir, User-Agent: 'Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36' }
+            path: '/?ed=8880'
+        xudp: true
+    -
+        client-fingerprint: chrome
+        encryption: none
+        name: '原生机房 12'
+        network: ws
+        port: 2053
+        server: 25.129.197.138
+        servername: KhAmeneI.DPdNs.OrG
+        tls: true
+        type: vless
+        udp: true
+        uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
+        ws-opts:
+            headers: { Host: khamenei.dpdns.org, User-Agent: 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36' }
+            path: '/eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560'
+        xudp: true
+    -
+        delay: 633
+        name: '原生机房 13'
+        network: ws
+        port: 443
+        server: 162.159.45.232
+        servername: l.ayovo.netlib.re
+        tls: true
+        type: vless
+        uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+        ws-opts:
+            early-data-header-name: Sec-WebSocket-Protocol
+            headers: { Host: l.ayovo.netlib.re }
+            max-early-data: 2560
+            path: /
+    -
+        name: '原生机房 14'
+        network: ws
+        port: 443
+        server: 162.159.45.232
+        servername: l.ayovo.netlib.re
+        skip-cert-verify: false
+        tls: true
+        type: vless
+        udp: true
+        uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+        ws-opts:
+            headers: { Host: l.ayovo.netlib.re }
+            path: '/?ed=2560'
     -
         cipher: aes-256-cfb
         country: 🏁ZZ
-        name: '原生机房 06'
+        name: '原生机房 15'
         password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
         port: 38388
-        server: 103.186.155.27
+        server: 103.186.155.223
         type: ss
     -
-        alterId: 2
-        cipher: auto
-        country: 🇭🇰HK
-        h2-opts: {  }
-        http-opts: {  }
-        name: '原生机房 07'
+        client-fingerprint: chrome
+        encryption: none
+        http-opts:
+            headers: {  }
+            path: [/]
+        name: '广播商宽 01'
         network: tcp
-        port: 30829
-        server: v29.hdacd.com
+        port: 47539
+        reality-opts:
+            public-key: uapzi5mhLkADHuak0eXEKq9vIl2A8IGrMhjdIG-tn3U
+            short-id: 82a55f31981ea6be
+        server: 178.17.53.28
+        servername: yandex.ru
+        tls: true
+        type: vless
+        udp: true
+        uuid: 447c45cd-ade0-4bfe-90a0-3e581829f741
+        xudp: true
+    -
+        client-fingerprint: firefox
+        name: '广播商宽 02'
+        port: 587
+        reality-opts:
+            public-key: HnPEhCDTcZnDejsAiidoOSx2-h0EvJMILj4bv3X1mBc
+            short-id: 916e8258c4a01b02
+        server: turkiye.torprospeed.ir
+        servername: excoino.com
+        skip-cert-verify: false
+        tls: true
+        type: vless
+        udp: true
+        uuid: 65a1e22c-d37e-4b92-b6ca-1d09dcd1d441
+    -
+        name: '广播商宽 03'
+        password: dongtaiwang.com
+        port: 33550
+        server: 89.144.35.25
         skip-cert-verify: true
-        type: vmess
-        uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+        sni: apple.com
+        tls: false
+        type: hysteria2
     -
-        cipher: aes-256-cfb
-        country: '🏁 ZZ'
-        name: '原生机房 08'
-        password: 'Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV'
-        port: 38388
-        server: 103.186.155.56
-        type: ss
+        country: 🇯🇵JP
+        name: '广播商宽 04'
+        password: 381f2e86233720eacda26d50e9aa26da
+        port: 1281
+        server: 202.181.103.246
+        skip-cert-verify: true
+        sni: www.nintendogames.net
+        tls: true
+        type: trojan
+        udp: true
     -
-        name: '🇩🇪DE²_2|0.5MB/s|GPT|X|Succeed 01'
+        auth: dongtaiwang.com
+        name: '广播商宽 05'
+        password: dongtaiwang.com
+        port: 33550
+        server: 89.144.35.25
+        skip-cert-verify: true
+        sni: apple.com
+        type: hysteria2
+        udp: true
+    -
+        name: '🏴‍☠_1🏴‍☠_2🇩🇪DE²_1|1.7MB/s|Succeed|2.5MB/s|Succeed|1.2MB/s|X|Succeed 01'
         password: ''
         port: 1080
         server: 193.233.254.9
@@ -1351,185 +1371,133 @@ proxies:
     -
         client-fingerprint: chrome
         flow: xtls-rprx-vision
-        name: '🏴‍☠_1RU_c4226_0007|1.0MB/s|X 01'
+        name: '🇷🇺RU²_3|2.3MB/s|X|Succeed 01'
         port: 443
         reality-opts:
-            public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-            short-id: 1ed136481e0ede74
-        server: 91.243.82.82
-        servername: khabarovsk.geodema.network
+            public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
+            short-id: 2476f063981ffd92
+        server: 51.250.87.167
+        servername: api-maps.yandex.ru
         skip-cert-verify: false
         tls: true
         type: vless
         udp: true
-        uuid: a91e64f0-9295-499d-bf4a-661ad99d4938
+        uuid: 4371ad14-b981-4699-bedf-83fb79bde3e6
+    -
+        name: '🇹🇼TW²_1|13.0MB/s|GPT⁺|YT|NF|D+|X|History 01'
+        password: exaxgqkKkd0TAMrCxeonWg==
+        port: 1443
+        server: twmoon1-cdn-route.couldflare-cdn.com
+        tls: true
+        type: http
+        udp: true
+        username: mrwdfNTD8M79LCukCieldrqZWqs=
+    -
+        delay: 1107
+        name: '🇰🇷KR²_1|1.2MB/s|2%|GPT⁺|GM|X 01'
+        port: 1090
+        server: 121.169.46.116
+        skip-cert-verify: true
+        type: socks5
+        udp: true
+        username: Og%3D%3D
+    -
+        name: '🇩🇪DE²_6|8.5MB/s|100%|GPT|X 01'
+        network: ws
+        port: 2087
+        server: 5.10.214.5
+        servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+        tls: true
+        type: vless
+        udp: true
+        uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+        ws-opts:
+            headers: { Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO }
+            path: /
+    -
+        name: '🏴‍☠_3🇰🇷KR²_9|0.9MB/s|1.8MB/s|X|History 01'
+        password: ''
+        port: 1090
+        server: 121.169.46.116
+        skip-cert-verify: true
+        type: socks5
+        username: ''
+    -
+        name: '🇩🇪DE²_7|2.6MB/s|9%|GPT⁺|X|History 01'
+        password: ''
+        port: 1080
+        server: 193.233.254.7
+        skip-cert-verify: true
+        type: socks5
+        username: ''
+    -
+        client-fingerprint: chrome
+        flow: xtls-rprx-vision
+        name: '🇫🇷FR²_1|5.0MB/s|53%|GPT⁺|X|Succeed 01'
+        port: 443
+        reality-opts:
+            public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+        server: 158.160.135.161
+        servername: cdnv-img.perekrestok.ru
+        skip-cert-verify: false
+        tls: true
+        type: vless
+        udp: true
+        uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
     -
         client-fingerprint: chrome
         encryption: none
+        name: '🇩🇪DE²_8|8.1MB/s|GPT|X|History 01'
+        network: ws
+        port: 8443
+        server: api.dark-coffe.com
+        servername: TjLwH7cTdH.sMaRtTeChZaAl.InFo
+        tls: true
+        type: vless
+        udp: true
+        uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+        ws-opts:
+            headers: { Host: TjLwH7cTdH.sMaRtTeChZaAl.InFo, User-Agent: 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.64 Safari/537.31' }
+            path: /
+        xudp: true
+    -
+        client-fingerprint: chrome
+        encryption: none
+        name: '原生商宽 01'
+        network: ws
+        port: 2087
+        server: api.dark-coffe.com
+        servername: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO
+        tls: true
+        type: vless
+        udp: true
+        uuid: 7e58699f-1d5d-4f6b-b181-cb74f0ad9509
+        ws-opts:
+            headers: { Host: 5JxGp6VrFh.SmArTtEcHzAaL.iNfO, User-Agent: 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36' }
+            path: '/?ed=2048HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN--HiByeVPNN'
+        xudp: true
+    -
+        client-fingerprint: chrome
         flow: xtls-rprx-vision
-        name: '🏴‍☠_2🇵🇱PL²_1|5.2MB/s|History|1.7MB/s|X|Succeed 01'
+        name: '🇬🇧GB²_1|4.3MB/s|53%|GPT⁺|X|Succeed 01'
         network: tcp
         port: 443
         reality-opts:
-            public-key: dEHsPQQSnMJiHJKnJRbbLFKQmwIemUXQsQ1zIYbLZng
-            short-id: f6
-        server: 51.250.95.143
-        servername: www.mobile.yandex.ru
+            public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+        server: ru-msk-yan-1gbit-01.sssrvpn.pro
+        servername: cdnv-img.perekrestok.ru
         tls: true
         type: vless
         udp: true
-        uuid: 5725a60c-34a5-476d-9ae3-9e43d945ca8f
-        xudp: true
+        uuid: d684cb56-e4b8-4453-8a7b-a1ad8c81935a
     -
-        alpn:
-            - h3
-        auth-str: dongtaiwang.com
-        auth_str: dongtaiwang.com
-        down: '55 Mbps'
-        name: '原生住宅拨号 01'
-        port: 26691
-        protocol: udp
-        server: 62.210.196.68
-        skip-cert-verify: true
-        sni: apple.com
-        type: hysteria
-        udp: true
-        up: '11 Mbps'
-    -
-        alpn:
-            - h3
-        client-fingerprint: random
-        delay: 1147
-        name: '广播机房 01'
-        network: ws
-        port: 443
-        server: 37.0.6.46
-        servername: snippet.danfeng.frii.site
-        tls: true
-        type: vless
-        uuid: 00a85603-d8c6-437d-a8bd-ea521107bd87
-        ws-opts:
-            early-data-header-name: Sec-WebSocket-Protocol
-            headers: { Host: snippet.danfeng.frii.site }
-            max-early-data: 2560
-            path: /
-    -
-        down: ''
-        fingerprint: ''
-        name: '广播机房 02'
-        obfs: salamander
-        obfs-password: '&O#28YB5qK!5t#U'
-        password: yhqy5AHofQq
-        port: 46914
-        server: channel4.saghetalaie.homes
-        skip-cert-verify: true
-        sni: www.google.com
-        type: hysteria2
-        up: ''
-    -
-        alterId: 0
-        cipher: auto
-        h2-opts: {  }
-        http-opts:
-            method: GET
-            path: [/]
-        name: '广播机房 03'
-        network: http
-        port: 443
-        server: 45.196.235.171
-        type: vmess
-        uuid: ac6e19f8-4852-41e1-c120-c7261ee8f6e5
-    -
-        client-fingerprint: chrome
-        name: '广播机房 04'
-        network: ws
-        port: 443
-        server: 192.210.175.108
-        servername: ww20.allxniu.qzz.io
-        tls: true
-        type: vless
-        udp: true
-        uuid: e258977b-e413-4718-a3af-02d75492c349
-        ws-opts:
-            headers: { Host: ww20.allxniu.qzz.io }
-            path: /
-    -
-        client-fingerprint: chrome
-        delay: 744
-        name: '广播机房 05'
-        network: ws
-        port: 80
-        server: 151.101.3.8
-        servername: mitivpn.global.ssl.fastly.net
-        tls: false
-        type: vless
-        uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-        ws-opts:
-            headers: { Host: mitivpn.global.ssl.fastly.net }
-            path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
-    -
-        encryption: none
-        name: '广播机房 06'
-        network: ws
-        port: 80
-        server: bastion.h3.speed.cloudflare.com
-        type: vless
-        udp: true
-        uuid: 👉👉BanV2ray👈👈
-        ws-opts:
-            headers: { Host: visvuev-272526281716252527717252.poshakhowdy.ir., User-Agent: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36' }
-            path: '/www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.speedtest.net-www.speedtest.net-www.bunny.net-www.bunny.net-www.speedtest.net-www.bunny.net-www.speedtest.net?ed=32143'
-        xudp: true
-    -
-        encryption: none
-        name: '广播机房 07'
-        network: ws
-        port: 80
-        server: 151.101.3.8
-        type: vless
-        udp: true
-        uuid: dd0cfef0-fda9-47ec-8a65-49d7bc004f82
-        ws-opts:
-            headers: { Host: mitivpn.global.ssl.fastly.net, User-Agent: 'Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/60.0.3112.116 Mobile Safari/537.36' }
-            path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN
-        xudp: true
-    -
-        name: '🏴‍☠_327.210.157.170:1081-01|7.9MB/s|X 01'
-        password: ''
-        port: 1081
-        server: 27.210.157.170
-        skip-cert-verify: true
-        type: socks5
-        username: ''
-    -
-        name: '🇺🇸US²_1|4.8MB/s|GPT|X|History 01'
+        name: '🏴‍☠_4🇳🇱NL²_3|5.6MB/s|4.6MB/s|X|History 01'
         password: ''
         port: 1080
-        server: 174.138.61.184
+        server: 5.255.113.177
         skip-cert-verify: true
         type: socks5
         username: ''
-    -
-        alterId: 0
-        cipher: auto
-        country: '🇺🇸 US'
-        http-opts: {  }
-        name: '🇺🇸US²_3|1.1MB/s|0%|GM|YT|TK|NF|D+|X 01'
-        network: none
-        port: 24004
-        server: 156.233.232.177
-        skip-cert-verify: true
-        type: vmess
-        uuid: 582fcb35-20a0-452c-e179-4c759c62c494
-        ws-opts:
-            path: /
-    -
-        cipher: aes-256-cfb
-        name: '🇪🇸ES²_1|1.6MB/s|X|History 01'
-        password: EXN3S3eQpjE7EJu8
-        port: 9027
-        server: 5.188.181.201
-        type: ss
 proxy-groups:
     -
         name: '🚀 节点选择'
@@ -1539,7 +1507,7 @@ proxy-groups:
             - DIRECT
             - '每天更新免费节点：clashfreenode.com'
             - 'tg频道：@clashfreenode'
-            - '更新于：2026-01-12 00:17:37'
+            - '更新于：2026-01-12 13:42:51'
             - '🇺🇸 美国 01'
             - '🇭🇰 香港 01'
             - '🇭🇰 香港 02'
@@ -1563,6 +1531,8 @@ proxy-groups:
             - '🇭🇰 香港 20'
             - '🇭🇰 香港 21'
             - '🇭🇰 香港 22'
+            - '🇭🇰 香港 23'
+            - '🇭🇰 香港 24'
             - '🇰🇷 韩国 01'
             - '🇰🇷 韩国 02'
             - '🇰🇷 韩国 03'
@@ -1610,28 +1580,17 @@ proxy-groups:
             - '原生住宅 33'
             - '原生住宅 34'
             - '原生住宅 35'
-            - '原生住宅 36'
-            - '原生住宅 37'
-            - '原生住宅 38'
-            - '原生住宅 39'
-            - '原生住宅 40'
-            - '原生住宅 41'
-            - '原生住宅 42'
-            - '原生住宅 43'
-            - '原生住宅 44'
-            - '原生住宅 45'
-            - '原生住宅 46'
-            - '原生住宅 47'
-            - '原生住宅 48'
-            - '原生住宅 49'
-            - '原生住宅 50'
-            - '原生住宅 51'
-            - '原生住宅 52'
-            - '原生住宅 53'
-            - '原生住宅 54'
-            - '广播商宽 01'
-            - '广播商宽 02'
-            - '🇻🇳VN²_1|0.6MB/s|GPT⁺|GM|X|History 01'
+            - '🇮🇳IN²_1|9.9MB/s|X|History 01'
+            - '广播机房 01'
+            - '广播机房 02'
+            - '广播机房 03'
+            - '广播机房 04'
+            - '广播机房 05'
+            - '广播机房 06'
+            - '广播机房 07'
+            - '广播机房 08'
+            - '广播机房 09'
+            - '广播机房 10'
             - '原生机房 01'
             - '原生机房 02'
             - '原生机房 03'
@@ -1640,21 +1599,30 @@ proxy-groups:
             - '原生机房 06'
             - '原生机房 07'
             - '原生机房 08'
-            - '🇩🇪DE²_2|0.5MB/s|GPT|X|Succeed 01'
-            - '🏴‍☠_1RU_c4226_0007|1.0MB/s|X 01'
-            - '🏴‍☠_2🇵🇱PL²_1|5.2MB/s|History|1.7MB/s|X|Succeed 01'
-            - '原生住宅拨号 01'
-            - '广播机房 01'
-            - '广播机房 02'
-            - '广播机房 03'
-            - '广播机房 04'
-            - '广播机房 05'
-            - '广播机房 06'
-            - '广播机房 07'
-            - '🏴‍☠_327.210.157.170:1081-01|7.9MB/s|X 01'
-            - '🇺🇸US²_1|4.8MB/s|GPT|X|History 01'
-            - '🇺🇸US²_3|1.1MB/s|0%|GM|YT|TK|NF|D+|X 01'
-            - '🇪🇸ES²_1|1.6MB/s|X|History 01'
+            - '原生机房 09'
+            - '原生机房 10'
+            - '原生机房 11'
+            - '原生机房 12'
+            - '原生机房 13'
+            - '原生机房 14'
+            - '原生机房 15'
+            - '广播商宽 01'
+            - '广播商宽 02'
+            - '广播商宽 03'
+            - '广播商宽 04'
+            - '广播商宽 05'
+            - '🏴‍☠_1🏴‍☠_2🇩🇪DE²_1|1.7MB/s|Succeed|2.5MB/s|Succeed|1.2MB/s|X|Succeed 01'
+            - '🇷🇺RU²_3|2.3MB/s|X|Succeed 01'
+            - '🇹🇼TW²_1|13.0MB/s|GPT⁺|YT|NF|D+|X|History 01'
+            - '🇰🇷KR²_1|1.2MB/s|2%|GPT⁺|GM|X 01'
+            - '🇩🇪DE²_6|8.5MB/s|100%|GPT|X 01'
+            - '🏴‍☠_3🇰🇷KR²_9|0.9MB/s|1.8MB/s|X|History 01'
+            - '🇩🇪DE²_7|2.6MB/s|9%|GPT⁺|X|History 01'
+            - '🇫🇷FR²_1|5.0MB/s|53%|GPT⁺|X|Succeed 01'
+            - '🇩🇪DE²_8|8.1MB/s|GPT|X|History 01'
+            - '原生商宽 01'
+            - '🇬🇧GB²_1|4.3MB/s|53%|GPT⁺|X|Succeed 01'
+            - '🏴‍☠_4🇳🇱NL²_3|5.6MB/s|4.6MB/s|X|History 01'
     -
         name: '♻️ 自动选择'
         type: url-test
@@ -1664,7 +1632,7 @@ proxy-groups:
         proxies:
             - '每天更新免费节点：clashfreenode.com'
             - 'tg频道：@clashfreenode'
-            - '更新于：2026-01-12 00:17:37'
+            - '更新于：2026-01-12 13:42:51'
             - '🇺🇸 美国 01'
             - '🇭🇰 香港 01'
             - '🇭🇰 香港 02'
@@ -1688,6 +1656,8 @@ proxy-groups:
             - '🇭🇰 香港 20'
             - '🇭🇰 香港 21'
             - '🇭🇰 香港 22'
+            - '🇭🇰 香港 23'
+            - '🇭🇰 香港 24'
             - '🇰🇷 韩国 01'
             - '🇰🇷 韩国 02'
             - '🇰🇷 韩国 03'
@@ -1735,28 +1705,17 @@ proxy-groups:
             - '原生住宅 33'
             - '原生住宅 34'
             - '原生住宅 35'
-            - '原生住宅 36'
-            - '原生住宅 37'
-            - '原生住宅 38'
-            - '原生住宅 39'
-            - '原生住宅 40'
-            - '原生住宅 41'
-            - '原生住宅 42'
-            - '原生住宅 43'
-            - '原生住宅 44'
-            - '原生住宅 45'
-            - '原生住宅 46'
-            - '原生住宅 47'
-            - '原生住宅 48'
-            - '原生住宅 49'
-            - '原生住宅 50'
-            - '原生住宅 51'
-            - '原生住宅 52'
-            - '原生住宅 53'
-            - '原生住宅 54'
-            - '广播商宽 01'
-            - '广播商宽 02'
-            - '🇻🇳VN²_1|0.6MB/s|GPT⁺|GM|X|History 01'
+            - '🇮🇳IN²_1|9.9MB/s|X|History 01'
+            - '广播机房 01'
+            - '广播机房 02'
+            - '广播机房 03'
+            - '广播机房 04'
+            - '广播机房 05'
+            - '广播机房 06'
+            - '广播机房 07'
+            - '广播机房 08'
+            - '广播机房 09'
+            - '广播机房 10'
             - '原生机房 01'
             - '原生机房 02'
             - '原生机房 03'
@@ -1765,21 +1724,30 @@ proxy-groups:
             - '原生机房 06'
             - '原生机房 07'
             - '原生机房 08'
-            - '🇩🇪DE²_2|0.5MB/s|GPT|X|Succeed 01'
-            - '🏴‍☠_1RU_c4226_0007|1.0MB/s|X 01'
-            - '🏴‍☠_2🇵🇱PL²_1|5.2MB/s|History|1.7MB/s|X|Succeed 01'
-            - '原生住宅拨号 01'
-            - '广播机房 01'
-            - '广播机房 02'
-            - '广播机房 03'
-            - '广播机房 04'
-            - '广播机房 05'
-            - '广播机房 06'
-            - '广播机房 07'
-            - '🏴‍☠_327.210.157.170:1081-01|7.9MB/s|X 01'
-            - '🇺🇸US²_1|4.8MB/s|GPT|X|History 01'
-            - '🇺🇸US²_3|1.1MB/s|0%|GM|YT|TK|NF|D+|X 01'
-            - '🇪🇸ES²_1|1.6MB/s|X|History 01'
+            - '原生机房 09'
+            - '原生机房 10'
+            - '原生机房 11'
+            - '原生机房 12'
+            - '原生机房 13'
+            - '原生机房 14'
+            - '原生机房 15'
+            - '广播商宽 01'
+            - '广播商宽 02'
+            - '广播商宽 03'
+            - '广播商宽 04'
+            - '广播商宽 05'
+            - '🏴‍☠_1🏴‍☠_2🇩🇪DE²_1|1.7MB/s|Succeed|2.5MB/s|Succeed|1.2MB/s|X|Succeed 01'
+            - '🇷🇺RU²_3|2.3MB/s|X|Succeed 01'
+            - '🇹🇼TW²_1|13.0MB/s|GPT⁺|YT|NF|D+|X|History 01'
+            - '🇰🇷KR²_1|1.2MB/s|2%|GPT⁺|GM|X 01'
+            - '🇩🇪DE²_6|8.5MB/s|100%|GPT|X 01'
+            - '🏴‍☠_3🇰🇷KR²_9|0.9MB/s|1.8MB/s|X|History 01'
+            - '🇩🇪DE²_7|2.6MB/s|9%|GPT⁺|X|History 01'
+            - '🇫🇷FR²_1|5.0MB/s|53%|GPT⁺|X|Succeed 01'
+            - '🇩🇪DE²_8|8.1MB/s|GPT|X|History 01'
+            - '原生商宽 01'
+            - '🇬🇧GB²_1|4.3MB/s|53%|GPT⁺|X|Succeed 01'
+            - '🏴‍☠_4🇳🇱NL²_3|5.6MB/s|4.6MB/s|X|History 01'
     -
         name: '🌍 国外媒体'
         type: select
@@ -1789,7 +1757,7 @@ proxy-groups:
             - '🎯 全球直连'
             - '每天更新免费节点：clashfreenode.com'
             - 'tg频道：@clashfreenode'
-            - '更新于：2026-01-12 00:17:37'
+            - '更新于：2026-01-12 13:42:51'
             - '🇺🇸 美国 01'
             - '🇭🇰 香港 01'
             - '🇭🇰 香港 02'
@@ -1813,6 +1781,8 @@ proxy-groups:
             - '🇭🇰 香港 20'
             - '🇭🇰 香港 21'
             - '🇭🇰 香港 22'
+            - '🇭🇰 香港 23'
+            - '🇭🇰 香港 24'
             - '🇰🇷 韩国 01'
             - '🇰🇷 韩国 02'
             - '🇰🇷 韩国 03'
@@ -1860,28 +1830,17 @@ proxy-groups:
             - '原生住宅 33'
             - '原生住宅 34'
             - '原生住宅 35'
-            - '原生住宅 36'
-            - '原生住宅 37'
-            - '原生住宅 38'
-            - '原生住宅 39'
-            - '原生住宅 40'
-            - '原生住宅 41'
-            - '原生住宅 42'
-            - '原生住宅 43'
-            - '原生住宅 44'
-            - '原生住宅 45'
-            - '原生住宅 46'
-            - '原生住宅 47'
-            - '原生住宅 48'
-            - '原生住宅 49'
-            - '原生住宅 50'
-            - '原生住宅 51'
-            - '原生住宅 52'
-            - '原生住宅 53'
-            - '原生住宅 54'
-            - '广播商宽 01'
-            - '广播商宽 02'
-            - '🇻🇳VN²_1|0.6MB/s|GPT⁺|GM|X|History 01'
+            - '🇮🇳IN²_1|9.9MB/s|X|History 01'
+            - '广播机房 01'
+            - '广播机房 02'
+            - '广播机房 03'
+            - '广播机房 04'
+            - '广播机房 05'
+            - '广播机房 06'
+            - '广播机房 07'
+            - '广播机房 08'
+            - '广播机房 09'
+            - '广播机房 10'
             - '原生机房 01'
             - '原生机房 02'
             - '原生机房 03'
@@ -1890,21 +1849,30 @@ proxy-groups:
             - '原生机房 06'
             - '原生机房 07'
             - '原生机房 08'
-            - '🇩🇪DE²_2|0.5MB/s|GPT|X|Succeed 01'
-            - '🏴‍☠_1RU_c4226_0007|1.0MB/s|X 01'
-            - '🏴‍☠_2🇵🇱PL²_1|5.2MB/s|History|1.7MB/s|X|Succeed 01'
-            - '原生住宅拨号 01'
-            - '广播机房 01'
-            - '广播机房 02'
-            - '广播机房 03'
-            - '广播机房 04'
-            - '广播机房 05'
-            - '广播机房 06'
-            - '广播机房 07'
-            - '🏴‍☠_327.210.157.170:1081-01|7.9MB/s|X 01'
-            - '🇺🇸US²_1|4.8MB/s|GPT|X|History 01'
-            - '🇺🇸US²_3|1.1MB/s|0%|GM|YT|TK|NF|D+|X 01'
-            - '🇪🇸ES²_1|1.6MB/s|X|History 01'
+            - '原生机房 09'
+            - '原生机房 10'
+            - '原生机房 11'
+            - '原生机房 12'
+            - '原生机房 13'
+            - '原生机房 14'
+            - '原生机房 15'
+            - '广播商宽 01'
+            - '广播商宽 02'
+            - '广播商宽 03'
+            - '广播商宽 04'
+            - '广播商宽 05'
+            - '🏴‍☠_1🏴‍☠_2🇩🇪DE²_1|1.7MB/s|Succeed|2.5MB/s|Succeed|1.2MB/s|X|Succeed 01'
+            - '🇷🇺RU²_3|2.3MB/s|X|Succeed 01'
+            - '🇹🇼TW²_1|13.0MB/s|GPT⁺|YT|NF|D+|X|History 01'
+            - '🇰🇷KR²_1|1.2MB/s|2%|GPT⁺|GM|X 01'
+            - '🇩🇪DE²_6|8.5MB/s|100%|GPT|X 01'
+            - '🏴‍☠_3🇰🇷KR²_9|0.9MB/s|1.8MB/s|X|History 01'
+            - '🇩🇪DE²_7|2.6MB/s|9%|GPT⁺|X|History 01'
+            - '🇫🇷FR²_1|5.0MB/s|53%|GPT⁺|X|Succeed 01'
+            - '🇩🇪DE²_8|8.1MB/s|GPT|X|History 01'
+            - '原生商宽 01'
+            - '🇬🇧GB²_1|4.3MB/s|53%|GPT⁺|X|Succeed 01'
+            - '🏴‍☠_4🇳🇱NL²_3|5.6MB/s|4.6MB/s|X|History 01'
     -
         name: '📲 电报信息'
         type: select
@@ -1913,7 +1881,7 @@ proxy-groups:
             - '🎯 全球直连'
             - '每天更新免费节点：clashfreenode.com'
             - 'tg频道：@clashfreenode'
-            - '更新于：2026-01-12 00:17:37'
+            - '更新于：2026-01-12 13:42:51'
             - '🇺🇸 美国 01'
             - '🇭🇰 香港 01'
             - '🇭🇰 香港 02'
@@ -1937,6 +1905,8 @@ proxy-groups:
             - '🇭🇰 香港 20'
             - '🇭🇰 香港 21'
             - '🇭🇰 香港 22'
+            - '🇭🇰 香港 23'
+            - '🇭🇰 香港 24'
             - '🇰🇷 韩国 01'
             - '🇰🇷 韩国 02'
             - '🇰🇷 韩国 03'
@@ -1984,28 +1954,17 @@ proxy-groups:
             - '原生住宅 33'
             - '原生住宅 34'
             - '原生住宅 35'
-            - '原生住宅 36'
-            - '原生住宅 37'
-            - '原生住宅 38'
-            - '原生住宅 39'
-            - '原生住宅 40'
-            - '原生住宅 41'
-            - '原生住宅 42'
-            - '原生住宅 43'
-            - '原生住宅 44'
-            - '原生住宅 45'
-            - '原生住宅 46'
-            - '原生住宅 47'
-            - '原生住宅 48'
-            - '原生住宅 49'
-            - '原生住宅 50'
-            - '原生住宅 51'
-            - '原生住宅 52'
-            - '原生住宅 53'
-            - '原生住宅 54'
-            - '广播商宽 01'
-            - '广播商宽 02'
-            - '🇻🇳VN²_1|0.6MB/s|GPT⁺|GM|X|History 01'
+            - '🇮🇳IN²_1|9.9MB/s|X|History 01'
+            - '广播机房 01'
+            - '广播机房 02'
+            - '广播机房 03'
+            - '广播机房 04'
+            - '广播机房 05'
+            - '广播机房 06'
+            - '广播机房 07'
+            - '广播机房 08'
+            - '广播机房 09'
+            - '广播机房 10'
             - '原生机房 01'
             - '原生机房 02'
             - '原生机房 03'
@@ -2014,21 +1973,30 @@ proxy-groups:
             - '原生机房 06'
             - '原生机房 07'
             - '原生机房 08'
-            - '🇩🇪DE²_2|0.5MB/s|GPT|X|Succeed 01'
-            - '🏴‍☠_1RU_c4226_0007|1.0MB/s|X 01'
-            - '🏴‍☠_2🇵🇱PL²_1|5.2MB/s|History|1.7MB/s|X|Succeed 01'
-            - '原生住宅拨号 01'
-            - '广播机房 01'
-            - '广播机房 02'
-            - '广播机房 03'
-            - '广播机房 04'
-            - '广播机房 05'
-            - '广播机房 06'
-            - '广播机房 07'
-            - '🏴‍☠_327.210.157.170:1081-01|7.9MB/s|X 01'
-            - '🇺🇸US²_1|4.8MB/s|GPT|X|History 01'
-            - '🇺🇸US²_3|1.1MB/s|0%|GM|YT|TK|NF|D+|X 01'
-            - '🇪🇸ES²_1|1.6MB/s|X|History 01'
+            - '原生机房 09'
+            - '原生机房 10'
+            - '原生机房 11'
+            - '原生机房 12'
+            - '原生机房 13'
+            - '原生机房 14'
+            - '原生机房 15'
+            - '广播商宽 01'
+            - '广播商宽 02'
+            - '广播商宽 03'
+            - '广播商宽 04'
+            - '广播商宽 05'
+            - '🏴‍☠_1🏴‍☠_2🇩🇪DE²_1|1.7MB/s|Succeed|2.5MB/s|Succeed|1.2MB/s|X|Succeed 01'
+            - '🇷🇺RU²_3|2.3MB/s|X|Succeed 01'
+            - '🇹🇼TW²_1|13.0MB/s|GPT⁺|YT|NF|D+|X|History 01'
+            - '🇰🇷KR²_1|1.2MB/s|2%|GPT⁺|GM|X 01'
+            - '🇩🇪DE²_6|8.5MB/s|100%|GPT|X 01'
+            - '🏴‍☠_3🇰🇷KR²_9|0.9MB/s|1.8MB/s|X|History 01'
+            - '🇩🇪DE²_7|2.6MB/s|9%|GPT⁺|X|History 01'
+            - '🇫🇷FR²_1|5.0MB/s|53%|GPT⁺|X|Succeed 01'
+            - '🇩🇪DE²_8|8.1MB/s|GPT|X|History 01'
+            - '原生商宽 01'
+            - '🇬🇧GB²_1|4.3MB/s|53%|GPT⁺|X|Succeed 01'
+            - '🏴‍☠_4🇳🇱NL²_3|5.6MB/s|4.6MB/s|X|History 01'
     -
         name: 'Ⓜ️ 微软服务'
         type: select
@@ -2037,7 +2005,7 @@ proxy-groups:
             - '🚀 节点选择'
             - '每天更新免费节点：clashfreenode.com'
             - 'tg频道：@clashfreenode'
-            - '更新于：2026-01-12 00:17:37'
+            - '更新于：2026-01-12 13:42:51'
             - '🇺🇸 美国 01'
             - '🇭🇰 香港 01'
             - '🇭🇰 香港 02'
@@ -2061,6 +2029,8 @@ proxy-groups:
             - '🇭🇰 香港 20'
             - '🇭🇰 香港 21'
             - '🇭🇰 香港 22'
+            - '🇭🇰 香港 23'
+            - '🇭🇰 香港 24'
             - '🇰🇷 韩国 01'
             - '🇰🇷 韩国 02'
             - '🇰🇷 韩国 03'
@@ -2108,28 +2078,17 @@ proxy-groups:
             - '原生住宅 33'
             - '原生住宅 34'
             - '原生住宅 35'
-            - '原生住宅 36'
-            - '原生住宅 37'
-            - '原生住宅 38'
-            - '原生住宅 39'
-            - '原生住宅 40'
-            - '原生住宅 41'
-            - '原生住宅 42'
-            - '原生住宅 43'
-            - '原生住宅 44'
-            - '原生住宅 45'
-            - '原生住宅 46'
-            - '原生住宅 47'
-            - '原生住宅 48'
-            - '原生住宅 49'
-            - '原生住宅 50'
-            - '原生住宅 51'
-            - '原生住宅 52'
-            - '原生住宅 53'
-            - '原生住宅 54'
-            - '广播商宽 01'
-            - '广播商宽 02'
-            - '🇻🇳VN²_1|0.6MB/s|GPT⁺|GM|X|History 01'
+            - '🇮🇳IN²_1|9.9MB/s|X|History 01'
+            - '广播机房 01'
+            - '广播机房 02'
+            - '广播机房 03'
+            - '广播机房 04'
+            - '广播机房 05'
+            - '广播机房 06'
+            - '广播机房 07'
+            - '广播机房 08'
+            - '广播机房 09'
+            - '广播机房 10'
             - '原生机房 01'
             - '原生机房 02'
             - '原生机房 03'
@@ -2138,21 +2097,30 @@ proxy-groups:
             - '原生机房 06'
             - '原生机房 07'
             - '原生机房 08'
-            - '🇩🇪DE²_2|0.5MB/s|GPT|X|Succeed 01'
-            - '🏴‍☠_1RU_c4226_0007|1.0MB/s|X 01'
-            - '🏴‍☠_2🇵🇱PL²_1|5.2MB/s|History|1.7MB/s|X|Succeed 01'
-            - '原生住宅拨号 01'
-            - '广播机房 01'
-            - '广播机房 02'
-            - '广播机房 03'
-            - '广播机房 04'
-            - '广播机房 05'
-            - '广播机房 06'
-            - '广播机房 07'
-            - '🏴‍☠_327.210.157.170:1081-01|7.9MB/s|X 01'
-            - '🇺🇸US²_1|4.8MB/s|GPT|X|History 01'
-            - '🇺🇸US²_3|1.1MB/s|0%|GM|YT|TK|NF|D+|X 01'
-            - '🇪🇸ES²_1|1.6MB/s|X|History 01'
+            - '原生机房 09'
+            - '原生机房 10'
+            - '原生机房 11'
+            - '原生机房 12'
+            - '原生机房 13'
+            - '原生机房 14'
+            - '原生机房 15'
+            - '广播商宽 01'
+            - '广播商宽 02'
+            - '广播商宽 03'
+            - '广播商宽 04'
+            - '广播商宽 05'
+            - '🏴‍☠_1🏴‍☠_2🇩🇪DE²_1|1.7MB/s|Succeed|2.5MB/s|Succeed|1.2MB/s|X|Succeed 01'
+            - '🇷🇺RU²_3|2.3MB/s|X|Succeed 01'
+            - '🇹🇼TW²_1|13.0MB/s|GPT⁺|YT|NF|D+|X|History 01'
+            - '🇰🇷KR²_1|1.2MB/s|2%|GPT⁺|GM|X 01'
+            - '🇩🇪DE²_6|8.5MB/s|100%|GPT|X 01'
+            - '🏴‍☠_3🇰🇷KR²_9|0.9MB/s|1.8MB/s|X|History 01'
+            - '🇩🇪DE²_7|2.6MB/s|9%|GPT⁺|X|History 01'
+            - '🇫🇷FR²_1|5.0MB/s|53%|GPT⁺|X|Succeed 01'
+            - '🇩🇪DE²_8|8.1MB/s|GPT|X|History 01'
+            - '原生商宽 01'
+            - '🇬🇧GB²_1|4.3MB/s|53%|GPT⁺|X|Succeed 01'
+            - '🏴‍☠_4🇳🇱NL²_3|5.6MB/s|4.6MB/s|X|History 01'
     -
         name: '🍎 苹果服务'
         type: select
@@ -2161,7 +2129,7 @@ proxy-groups:
             - '🎯 全球直连'
             - '每天更新免费节点：clashfreenode.com'
             - 'tg频道：@clashfreenode'
-            - '更新于：2026-01-12 00:17:37'
+            - '更新于：2026-01-12 13:42:51'
             - '🇺🇸 美国 01'
             - '🇭🇰 香港 01'
             - '🇭🇰 香港 02'
@@ -2185,6 +2153,8 @@ proxy-groups:
             - '🇭🇰 香港 20'
             - '🇭🇰 香港 21'
             - '🇭🇰 香港 22'
+            - '🇭🇰 香港 23'
+            - '🇭🇰 香港 24'
             - '🇰🇷 韩国 01'
             - '🇰🇷 韩国 02'
             - '🇰🇷 韩国 03'
@@ -2232,28 +2202,17 @@ proxy-groups:
             - '原生住宅 33'
             - '原生住宅 34'
             - '原生住宅 35'
-            - '原生住宅 36'
-            - '原生住宅 37'
-            - '原生住宅 38'
-            - '原生住宅 39'
-            - '原生住宅 40'
-            - '原生住宅 41'
-            - '原生住宅 42'
-            - '原生住宅 43'
-            - '原生住宅 44'
-            - '原生住宅 45'
-            - '原生住宅 46'
-            - '原生住宅 47'
-            - '原生住宅 48'
-            - '原生住宅 49'
-            - '原生住宅 50'
-            - '原生住宅 51'
-            - '原生住宅 52'
-            - '原生住宅 53'
-            - '原生住宅 54'
-            - '广播商宽 01'
-            - '广播商宽 02'
-            - '🇻🇳VN²_1|0.6MB/s|GPT⁺|GM|X|History 01'
+            - '🇮🇳IN²_1|9.9MB/s|X|History 01'
+            - '广播机房 01'
+            - '广播机房 02'
+            - '广播机房 03'
+            - '广播机房 04'
+            - '广播机房 05'
+            - '广播机房 06'
+            - '广播机房 07'
+            - '广播机房 08'
+            - '广播机房 09'
+            - '广播机房 10'
             - '原生机房 01'
             - '原生机房 02'
             - '原生机房 03'
@@ -2262,21 +2221,30 @@ proxy-groups:
             - '原生机房 06'
             - '原生机房 07'
             - '原生机房 08'
-            - '🇩🇪DE²_2|0.5MB/s|GPT|X|Succeed 01'
-            - '🏴‍☠_1RU_c4226_0007|1.0MB/s|X 01'
-            - '🏴‍☠_2🇵🇱PL²_1|5.2MB/s|History|1.7MB/s|X|Succeed 01'
-            - '原生住宅拨号 01'
-            - '广播机房 01'
-            - '广播机房 02'
-            - '广播机房 03'
-            - '广播机房 04'
-            - '广播机房 05'
-            - '广播机房 06'
-            - '广播机房 07'
-            - '🏴‍☠_327.210.157.170:1081-01|7.9MB/s|X 01'
-            - '🇺🇸US²_1|4.8MB/s|GPT|X|History 01'
-            - '🇺🇸US²_3|1.1MB/s|0%|GM|YT|TK|NF|D+|X 01'
-            - '🇪🇸ES²_1|1.6MB/s|X|History 01'
+            - '原生机房 09'
+            - '原生机房 10'
+            - '原生机房 11'
+            - '原生机房 12'
+            - '原生机房 13'
+            - '原生机房 14'
+            - '原生机房 15'
+            - '广播商宽 01'
+            - '广播商宽 02'
+            - '广播商宽 03'
+            - '广播商宽 04'
+            - '广播商宽 05'
+            - '🏴‍☠_1🏴‍☠_2🇩🇪DE²_1|1.7MB/s|Succeed|2.5MB/s|Succeed|1.2MB/s|X|Succeed 01'
+            - '🇷🇺RU²_3|2.3MB/s|X|Succeed 01'
+            - '🇹🇼TW²_1|13.0MB/s|GPT⁺|YT|NF|D+|X|History 01'
+            - '🇰🇷KR²_1|1.2MB/s|2%|GPT⁺|GM|X 01'
+            - '🇩🇪DE²_6|8.5MB/s|100%|GPT|X 01'
+            - '🏴‍☠_3🇰🇷KR²_9|0.9MB/s|1.8MB/s|X|History 01'
+            - '🇩🇪DE²_7|2.6MB/s|9%|GPT⁺|X|History 01'
+            - '🇫🇷FR²_1|5.0MB/s|53%|GPT⁺|X|Succeed 01'
+            - '🇩🇪DE²_8|8.1MB/s|GPT|X|History 01'
+            - '原生商宽 01'
+            - '🇬🇧GB²_1|4.3MB/s|53%|GPT⁺|X|Succeed 01'
+            - '🏴‍☠_4🇳🇱NL²_3|5.6MB/s|4.6MB/s|X|History 01'
     -
         name: '📢 谷歌FCM'
         type: select
@@ -2286,7 +2254,7 @@ proxy-groups:
             - '♻️ 自动选择'
             - '每天更新免费节点：clashfreenode.com'
             - 'tg频道：@clashfreenode'
-            - '更新于：2026-01-12 00:17:37'
+            - '更新于：2026-01-12 13:42:51'
             - '🇺🇸 美国 01'
             - '🇭🇰 香港 01'
             - '🇭🇰 香港 02'
@@ -2310,6 +2278,8 @@ proxy-groups:
             - '🇭🇰 香港 20'
             - '🇭🇰 香港 21'
             - '🇭🇰 香港 22'
+            - '🇭🇰 香港 23'
+            - '🇭🇰 香港 24'
             - '🇰🇷 韩国 01'
             - '🇰🇷 韩国 02'
             - '🇰🇷 韩国 03'
@@ -2357,28 +2327,17 @@ proxy-groups:
             - '原生住宅 33'
             - '原生住宅 34'
             - '原生住宅 35'
-            - '原生住宅 36'
-            - '原生住宅 37'
-            - '原生住宅 38'
-            - '原生住宅 39'
-            - '原生住宅 40'
-            - '原生住宅 41'
-            - '原生住宅 42'
-            - '原生住宅 43'
-            - '原生住宅 44'
-            - '原生住宅 45'
-            - '原生住宅 46'
-            - '原生住宅 47'
-            - '原生住宅 48'
-            - '原生住宅 49'
-            - '原生住宅 50'
-            - '原生住宅 51'
-            - '原生住宅 52'
-            - '原生住宅 53'
-            - '原生住宅 54'
-            - '广播商宽 01'
-            - '广播商宽 02'
-            - '🇻🇳VN²_1|0.6MB/s|GPT⁺|GM|X|History 01'
+            - '🇮🇳IN²_1|9.9MB/s|X|History 01'
+            - '广播机房 01'
+            - '广播机房 02'
+            - '广播机房 03'
+            - '广播机房 04'
+            - '广播机房 05'
+            - '广播机房 06'
+            - '广播机房 07'
+            - '广播机房 08'
+            - '广播机房 09'
+            - '广播机房 10'
             - '原生机房 01'
             - '原生机房 02'
             - '原生机房 03'
@@ -2387,21 +2346,30 @@ proxy-groups:
             - '原生机房 06'
             - '原生机房 07'
             - '原生机房 08'
-            - '🇩🇪DE²_2|0.5MB/s|GPT|X|Succeed 01'
-            - '🏴‍☠_1RU_c4226_0007|1.0MB/s|X 01'
-            - '🏴‍☠_2🇵🇱PL²_1|5.2MB/s|History|1.7MB/s|X|Succeed 01'
-            - '原生住宅拨号 01'
-            - '广播机房 01'
-            - '广播机房 02'
-            - '广播机房 03'
-            - '广播机房 04'
-            - '广播机房 05'
-            - '广播机房 06'
-            - '广播机房 07'
-            - '🏴‍☠_327.210.157.170:1081-01|7.9MB/s|X 01'
-            - '🇺🇸US²_1|4.8MB/s|GPT|X|History 01'
-            - '🇺🇸US²_3|1.1MB/s|0%|GM|YT|TK|NF|D+|X 01'
-            - '🇪🇸ES²_1|1.6MB/s|X|History 01'
+            - '原生机房 09'
+            - '原生机房 10'
+            - '原生机房 11'
+            - '原生机房 12'
+            - '原生机房 13'
+            - '原生机房 14'
+            - '原生机房 15'
+            - '广播商宽 01'
+            - '广播商宽 02'
+            - '广播商宽 03'
+            - '广播商宽 04'
+            - '广播商宽 05'
+            - '🏴‍☠_1🏴‍☠_2🇩🇪DE²_1|1.7MB/s|Succeed|2.5MB/s|Succeed|1.2MB/s|X|Succeed 01'
+            - '🇷🇺RU²_3|2.3MB/s|X|Succeed 01'
+            - '🇹🇼TW²_1|13.0MB/s|GPT⁺|YT|NF|D+|X|History 01'
+            - '🇰🇷KR²_1|1.2MB/s|2%|GPT⁺|GM|X 01'
+            - '🇩🇪DE²_6|8.5MB/s|100%|GPT|X 01'
+            - '🏴‍☠_3🇰🇷KR²_9|0.9MB/s|1.8MB/s|X|History 01'
+            - '🇩🇪DE²_7|2.6MB/s|9%|GPT⁺|X|History 01'
+            - '🇫🇷FR²_1|5.0MB/s|53%|GPT⁺|X|Succeed 01'
+            - '🇩🇪DE²_8|8.1MB/s|GPT|X|History 01'
+            - '原生商宽 01'
+            - '🇬🇧GB²_1|4.3MB/s|53%|GPT⁺|X|Succeed 01'
+            - '🏴‍☠_4🇳🇱NL²_3|5.6MB/s|4.6MB/s|X|History 01'
     -
         name: '🎯 全球直连'
         type: select
@@ -2430,7 +2398,7 @@ proxy-groups:
             - '♻️ 自动选择'
             - '每天更新免费节点：clashfreenode.com'
             - 'tg频道：@clashfreenode'
-            - '更新于：2026-01-12 00:17:37'
+            - '更新于：2026-01-12 13:42:51'
             - '🇺🇸 美国 01'
             - '🇭🇰 香港 01'
             - '🇭🇰 香港 02'
@@ -2454,6 +2422,8 @@ proxy-groups:
             - '🇭🇰 香港 20'
             - '🇭🇰 香港 21'
             - '🇭🇰 香港 22'
+            - '🇭🇰 香港 23'
+            - '🇭🇰 香港 24'
             - '🇰🇷 韩国 01'
             - '🇰🇷 韩国 02'
             - '🇰🇷 韩国 03'
@@ -2501,28 +2471,17 @@ proxy-groups:
             - '原生住宅 33'
             - '原生住宅 34'
             - '原生住宅 35'
-            - '原生住宅 36'
-            - '原生住宅 37'
-            - '原生住宅 38'
-            - '原生住宅 39'
-            - '原生住宅 40'
-            - '原生住宅 41'
-            - '原生住宅 42'
-            - '原生住宅 43'
-            - '原生住宅 44'
-            - '原生住宅 45'
-            - '原生住宅 46'
-            - '原生住宅 47'
-            - '原生住宅 48'
-            - '原生住宅 49'
-            - '原生住宅 50'
-            - '原生住宅 51'
-            - '原生住宅 52'
-            - '原生住宅 53'
-            - '原生住宅 54'
-            - '广播商宽 01'
-            - '广播商宽 02'
-            - '🇻🇳VN²_1|0.6MB/s|GPT⁺|GM|X|History 01'
+            - '🇮🇳IN²_1|9.9MB/s|X|History 01'
+            - '广播机房 01'
+            - '广播机房 02'
+            - '广播机房 03'
+            - '广播机房 04'
+            - '广播机房 05'
+            - '广播机房 06'
+            - '广播机房 07'
+            - '广播机房 08'
+            - '广播机房 09'
+            - '广播机房 10'
             - '原生机房 01'
             - '原生机房 02'
             - '原生机房 03'
@@ -2531,21 +2490,30 @@ proxy-groups:
             - '原生机房 06'
             - '原生机房 07'
             - '原生机房 08'
-            - '🇩🇪DE²_2|0.5MB/s|GPT|X|Succeed 01'
-            - '🏴‍☠_1RU_c4226_0007|1.0MB/s|X 01'
-            - '🏴‍☠_2🇵🇱PL²_1|5.2MB/s|History|1.7MB/s|X|Succeed 01'
-            - '原生住宅拨号 01'
-            - '广播机房 01'
-            - '广播机房 02'
-            - '广播机房 03'
-            - '广播机房 04'
-            - '广播机房 05'
-            - '广播机房 06'
-            - '广播机房 07'
-            - '🏴‍☠_327.210.157.170:1081-01|7.9MB/s|X 01'
-            - '🇺🇸US²_1|4.8MB/s|GPT|X|History 01'
-            - '🇺🇸US²_3|1.1MB/s|0%|GM|YT|TK|NF|D+|X 01'
-            - '🇪🇸ES²_1|1.6MB/s|X|History 01'
+            - '原生机房 09'
+            - '原生机房 10'
+            - '原生机房 11'
+            - '原生机房 12'
+            - '原生机房 13'
+            - '原生机房 14'
+            - '原生机房 15'
+            - '广播商宽 01'
+            - '广播商宽 02'
+            - '广播商宽 03'
+            - '广播商宽 04'
+            - '广播商宽 05'
+            - '🏴‍☠_1🏴‍☠_2🇩🇪DE²_1|1.7MB/s|Succeed|2.5MB/s|Succeed|1.2MB/s|X|Succeed 01'
+            - '🇷🇺RU²_3|2.3MB/s|X|Succeed 01'
+            - '🇹🇼TW²_1|13.0MB/s|GPT⁺|YT|NF|D+|X|History 01'
+            - '🇰🇷KR²_1|1.2MB/s|2%|GPT⁺|GM|X 01'
+            - '🇩🇪DE²_6|8.5MB/s|100%|GPT|X 01'
+            - '🏴‍☠_3🇰🇷KR²_9|0.9MB/s|1.8MB/s|X|History 01'
+            - '🇩🇪DE²_7|2.6MB/s|9%|GPT⁺|X|History 01'
+            - '🇫🇷FR²_1|5.0MB/s|53%|GPT⁺|X|Succeed 01'
+            - '🇩🇪DE²_8|8.1MB/s|GPT|X|History 01'
+            - '原生商宽 01'
+            - '🇬🇧GB²_1|4.3MB/s|53%|GPT⁺|X|Succeed 01'
+            - '🏴‍☠_4🇳🇱NL²_3|5.6MB/s|4.6MB/s|X|History 01'
 rules:
     - 'DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连'
     - 'DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连'
