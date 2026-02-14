@@ -19,43 +19,34 @@ proxies:
   -
     alterId: 2
     cipher: "auto"
-    country: 🇨🇳CN
     h2-opts: {  }
     http-opts: {  }
     name: '每天更新免费节点：clashfreenode.com'
     network: tcp
-    port: 30846
-    server: v46.hdacd.com
-    servername: v46.hdacd.com
-    skip-cert-verify: true
+    port: 30833
+    server: v33.hdacd.com
     type: "vmess"
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   -
     alterId: 2
     cipher: "auto"
-    country: 🇨🇳CN
     h2-opts: {  }
     http-opts: {  }
     name: 'tg频道：@clashfreenode'
     network: tcp
-    port: 30846
-    server: v46.hdacd.com
-    servername: v46.hdacd.com
-    skip-cert-verify: true
+    port: 30833
+    server: v33.hdacd.com
     type: "vmess"
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   -
     alterId: 2
     cipher: "auto"
-    country: 🇨🇳CN
     h2-opts: {  }
     http-opts: {  }
-    name: '更新于：2026-02-13 20:49:34'
+    name: '更新于：2026-02-14 03:29:28'
     network: tcp
-    port: 30846
-    server: v46.hdacd.com
-    servername: v46.hdacd.com
-    skip-cert-verify: true
+    port: 30833
+    server: v33.hdacd.com
     type: "vmess"
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   -
@@ -223,16 +214,19 @@ proxies:
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   -
-    delay: 1247
+    client-fingerprint: safari
+    flow: xtls-rprx-vision
     name: '🇭🇰 香港 05'
-    password: BxceQaOe
     port: 443
-    server: 203.198.123.162
-    skip-cert-verify: true
-    sni: 203.198.123.162
+    reality-opts:
+      public-key: 4cfuj5otn8-uhPUe23OhB6KY8I42AxxJNt4lWIpg_AU
+    server: 2.hk.1.cdn-bilibili.cn
+    servername: www.icloud.com
+    skip-cert-verify: false
     tls: true
-    type: "trojan"
+    type: "vless"
     udp: true
+    uuid: fcfc091d-81a4-40b7-cbdc-8eb7683617a4
   -
     name: '🇸🇬 新加坡 01'
     server: 43.207.73.82
@@ -453,34 +447,68 @@ proxies:
       path: /
       headers: { Host: dev.twistsparrow.xyz }
   -
-    country: 🇭🇰HK
-    name: '广播机房 01'
-    password: a8f3baf4-0694-4f73-bebc-9e7f3ea01b95
-    port: 30003
-    server: jp10.jsyjiedian8.com
+    name: '🇳🇱NL²_1|0.5MB/s|GPT|X|History 01'
+    password: ''
+    port: 5555
+    server: 146.19.254.101
     skip-cert-verify: true
-    sni: jsygouer.weixin-baidu-qq.com
-    tls: true
-    type: "trojan"
-    udp: true
+    type: "socks5"
+    username: ''
   -
-    alpn:
-      - h2
-      - http/1.1
-    name: '广播机房 02'
-    password: 0db758b4-e2ea-4716-bc9f-089bf6a1a30b
-    port: 50012
-    server: zz.9966663.xyz
+    alterId: 0
+    cipher: "auto"
+    country: 🇬🇧GB
+    h2-opts: {  }
+    http-opts: {  }
+    name: '原生机房 01'
+    network: ws
+    port: 12891
+    server: gtm1.ktmwan.net
+    servername: baidu.com
     skip-cert-verify: true
-    type: "anytls"
-    udp: true
+    type: "vmess"
+    uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
+    ws-opts:
+      headers: { HOST: baidu.com }
+      path: /
+  -
+    alterId: 0
+    cipher: "auto"
+    country: 🇬🇧GB
+    h2-opts: {  }
+    http-opts: {  }
+    name: '🇯🇵JP²_1|0.7MB/s|0%|GPT|YT|D+|X|History 01'
+    network: ws
+    port: 12883
+    server: gtm1.ktmwan.net
+    servername: baidu.com
+    skip-cert-verify: true
+    type: "vmess"
+    uuid: 3ac9d436-f213-421d-9644-a94686ee9fba
+  -
+    alterId: 0
+    cipher: "auto"
+    country: 🇬🇧GB
+    h2-opts: {  }
+    http-opts: {  }
+    name: '广播机房 01'
+    network: ws
+    port: 12901
+    server: gtm1.ktmwan.net
+    servername: baidu.com
+    skip-cert-verify: true
+    type: "vmess"
+    uuid: 4ff18004-8e47-4a8f-bc85-d317d888ed99
+    ws-opts:
+      headers: { HOST: baidu.com }
+      path: /
   -
     alterId: 0
     cipher: "auto"
     country: 🇺🇸US
     h2-opts: {  }
     http-opts: {  }
-    name: '广播机房 03'
+    name: '广播机房 02'
     network: ws
     port: 8080
     server: tgju.org
@@ -494,52 +522,59 @@ proxies:
   -
     alterId: 2
     cipher: "auto"
-    country: '🏁 ZZ'
-    http-opts: {  }
-    name: '🇺🇸US²_1|2.3MB/s|X|History 01'
-    network: tcp
-    port: 30808
-    server: v8.hdacd.com
-    skip-cert-verify: true
-    type: "vmess"
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-    ws-opts:
-      path: /
-  -
-    alterId: 2
-    cipher: "auto"
-    country: 🇭🇰HK
     h2-opts: {  }
     http-opts: {  }
-    name: '🇺🇸US²_2|2.3MB/s|35%|GPT⁺|YT-CN|NF|X|History 01'
+    name: '广播机房 03'
     network: tcp
-    port: 30829
-    server: v29.hdacd.com
-    skip-cert-verify: true
+    port: 30833
+    server: v33.hdacd.com
     type: "vmess"
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   -
-    name: '🇹🇼TW²_1|0.5MB/s|0%|X|History 01'
+    name: '原生住宅 01'
+    password: exaxgqkKkd0TAMrCxeonWg==
+    port: 1443
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    skip-cert-verify: false
+    tls: true
+    type: "http"
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+  -
+    client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc
+    name: '🇬🇧GB²_1|1.1MB/s|22%|GPT⁺|X|History 01'
+    network: grpc
+    port: 5432
+    reality-opts:
+      public-key: r6_et-HNS6OcTf79Yk_A6y8l5lF-EU2Et_thotTHlgk
+      short-id: 538b84e2
+    server: gbr11.tcpdoor.net
+    servername: www.samsung.com
+    tls: true
+    type: "vless"
+    udp: true
+    uuid: 895f94cb-5567-4731-bc2c-2f89a54bafe4
+    xudp: true
+  -
+    name: '🇹🇼TW²_2|2.1MB/s|GPT⁺|YT|X|History 01'
+    password: mrwdfNTD8M79LCukCieldrqZWqs=
+    port: 1443
+    server: twmoon1-cdn-route.couldflare-cdn.com
+    skip-cert-verify: true
+    tls: true
+    type: "http"
+    udp: true
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+  -
+    name: '🇹🇼TW²_3|1.0MB/s|X|Succeed 01'
     password: ''
     port: 1080
     server: 141.11.42.163
     skip-cert-verify: true
     type: "socks5"
     username: ''
-  -
-    alterId: 2
-    cipher: "auto"
-    country: 🇨🇳CN
-    h2-opts: {  }
-    http-opts: {  }
-    name: '🇺🇸US²_3|1.7MB/s|GPT⁺|X|Succeed 01'
-    network: tcp
-    port: 30846
-    server: v46.hdacd.com
-    servername: v46.hdacd.com
-    skip-cert-verify: true
-    type: "vmess"
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 proxy-groups:
   -
     name: '🚀 节点选择'
@@ -549,7 +584,7 @@ proxy-groups:
       - DIRECT
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-13 20:49:34'
+      - '更新于：2026-02-14 03:29:28'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -587,13 +622,16 @@ proxy-groups:
       - '🇺🇸 美国英国 01'
       - '比利时 01'
       - '西班牙未知 01'
+      - '🇳🇱NL²_1|0.5MB/s|GPT|X|History 01'
+      - '原生机房 01'
+      - '🇯🇵JP²_1|0.7MB/s|0%|GPT|YT|D+|X|History 01'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
-      - '🇺🇸US²_1|2.3MB/s|X|History 01'
-      - '🇺🇸US²_2|2.3MB/s|35%|GPT⁺|YT-CN|NF|X|History 01'
-      - '🇹🇼TW²_1|0.5MB/s|0%|X|History 01'
-      - '🇺🇸US²_3|1.7MB/s|GPT⁺|X|Succeed 01'
+      - '原生住宅 01'
+      - '🇬🇧GB²_1|1.1MB/s|22%|GPT⁺|X|History 01'
+      - '🇹🇼TW²_2|2.1MB/s|GPT⁺|YT|X|History 01'
+      - '🇹🇼TW²_3|1.0MB/s|X|Succeed 01'
   -
     name: '♻️ 自动选择'
     type: "url-test"
@@ -603,7 +641,7 @@ proxy-groups:
     proxies:
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-13 20:49:34'
+      - '更新于：2026-02-14 03:29:28'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -641,13 +679,16 @@ proxy-groups:
       - '🇺🇸 美国英国 01'
       - '比利时 01'
       - '西班牙未知 01'
+      - '🇳🇱NL²_1|0.5MB/s|GPT|X|History 01'
+      - '原生机房 01'
+      - '🇯🇵JP²_1|0.7MB/s|0%|GPT|YT|D+|X|History 01'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
-      - '🇺🇸US²_1|2.3MB/s|X|History 01'
-      - '🇺🇸US²_2|2.3MB/s|35%|GPT⁺|YT-CN|NF|X|History 01'
-      - '🇹🇼TW²_1|0.5MB/s|0%|X|History 01'
-      - '🇺🇸US²_3|1.7MB/s|GPT⁺|X|Succeed 01'
+      - '原生住宅 01'
+      - '🇬🇧GB²_1|1.1MB/s|22%|GPT⁺|X|History 01'
+      - '🇹🇼TW²_2|2.1MB/s|GPT⁺|YT|X|History 01'
+      - '🇹🇼TW²_3|1.0MB/s|X|Succeed 01'
   -
     name: '🌍 国外媒体'
     type: "select"
@@ -657,7 +698,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-13 20:49:34'
+      - '更新于：2026-02-14 03:29:28'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -695,13 +736,16 @@ proxy-groups:
       - '🇺🇸 美国英国 01'
       - '比利时 01'
       - '西班牙未知 01'
+      - '🇳🇱NL²_1|0.5MB/s|GPT|X|History 01'
+      - '原生机房 01'
+      - '🇯🇵JP²_1|0.7MB/s|0%|GPT|YT|D+|X|History 01'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
-      - '🇺🇸US²_1|2.3MB/s|X|History 01'
-      - '🇺🇸US²_2|2.3MB/s|35%|GPT⁺|YT-CN|NF|X|History 01'
-      - '🇹🇼TW²_1|0.5MB/s|0%|X|History 01'
-      - '🇺🇸US²_3|1.7MB/s|GPT⁺|X|Succeed 01'
+      - '原生住宅 01'
+      - '🇬🇧GB²_1|1.1MB/s|22%|GPT⁺|X|History 01'
+      - '🇹🇼TW²_2|2.1MB/s|GPT⁺|YT|X|History 01'
+      - '🇹🇼TW²_3|1.0MB/s|X|Succeed 01'
   -
     name: '📲 电报信息'
     type: "select"
@@ -710,7 +754,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-13 20:49:34'
+      - '更新于：2026-02-14 03:29:28'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -748,13 +792,16 @@ proxy-groups:
       - '🇺🇸 美国英国 01'
       - '比利时 01'
       - '西班牙未知 01'
+      - '🇳🇱NL²_1|0.5MB/s|GPT|X|History 01'
+      - '原生机房 01'
+      - '🇯🇵JP²_1|0.7MB/s|0%|GPT|YT|D+|X|History 01'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
-      - '🇺🇸US²_1|2.3MB/s|X|History 01'
-      - '🇺🇸US²_2|2.3MB/s|35%|GPT⁺|YT-CN|NF|X|History 01'
-      - '🇹🇼TW²_1|0.5MB/s|0%|X|History 01'
-      - '🇺🇸US²_3|1.7MB/s|GPT⁺|X|Succeed 01'
+      - '原生住宅 01'
+      - '🇬🇧GB²_1|1.1MB/s|22%|GPT⁺|X|History 01'
+      - '🇹🇼TW²_2|2.1MB/s|GPT⁺|YT|X|History 01'
+      - '🇹🇼TW²_3|1.0MB/s|X|Succeed 01'
   -
     name: 'Ⓜ️ 微软服务'
     type: "select"
@@ -763,7 +810,7 @@ proxy-groups:
       - '🚀 节点选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-13 20:49:34'
+      - '更新于：2026-02-14 03:29:28'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -801,13 +848,16 @@ proxy-groups:
       - '🇺🇸 美国英国 01'
       - '比利时 01'
       - '西班牙未知 01'
+      - '🇳🇱NL²_1|0.5MB/s|GPT|X|History 01'
+      - '原生机房 01'
+      - '🇯🇵JP²_1|0.7MB/s|0%|GPT|YT|D+|X|History 01'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
-      - '🇺🇸US²_1|2.3MB/s|X|History 01'
-      - '🇺🇸US²_2|2.3MB/s|35%|GPT⁺|YT-CN|NF|X|History 01'
-      - '🇹🇼TW²_1|0.5MB/s|0%|X|History 01'
-      - '🇺🇸US²_3|1.7MB/s|GPT⁺|X|Succeed 01'
+      - '原生住宅 01'
+      - '🇬🇧GB²_1|1.1MB/s|22%|GPT⁺|X|History 01'
+      - '🇹🇼TW²_2|2.1MB/s|GPT⁺|YT|X|History 01'
+      - '🇹🇼TW²_3|1.0MB/s|X|Succeed 01'
   -
     name: '🍎 苹果服务'
     type: "select"
@@ -816,7 +866,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-13 20:49:34'
+      - '更新于：2026-02-14 03:29:28'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -854,13 +904,16 @@ proxy-groups:
       - '🇺🇸 美国英国 01'
       - '比利时 01'
       - '西班牙未知 01'
+      - '🇳🇱NL²_1|0.5MB/s|GPT|X|History 01'
+      - '原生机房 01'
+      - '🇯🇵JP²_1|0.7MB/s|0%|GPT|YT|D+|X|History 01'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
-      - '🇺🇸US²_1|2.3MB/s|X|History 01'
-      - '🇺🇸US²_2|2.3MB/s|35%|GPT⁺|YT-CN|NF|X|History 01'
-      - '🇹🇼TW²_1|0.5MB/s|0%|X|History 01'
-      - '🇺🇸US²_3|1.7MB/s|GPT⁺|X|Succeed 01'
+      - '原生住宅 01'
+      - '🇬🇧GB²_1|1.1MB/s|22%|GPT⁺|X|History 01'
+      - '🇹🇼TW²_2|2.1MB/s|GPT⁺|YT|X|History 01'
+      - '🇹🇼TW²_3|1.0MB/s|X|Succeed 01'
   -
     name: '📢 谷歌FCM'
     type: "select"
@@ -870,7 +923,7 @@ proxy-groups:
       - '♻️ 自动选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-13 20:49:34'
+      - '更新于：2026-02-14 03:29:28'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -908,13 +961,16 @@ proxy-groups:
       - '🇺🇸 美国英国 01'
       - '比利时 01'
       - '西班牙未知 01'
+      - '🇳🇱NL²_1|0.5MB/s|GPT|X|History 01'
+      - '原生机房 01'
+      - '🇯🇵JP²_1|0.7MB/s|0%|GPT|YT|D+|X|History 01'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
-      - '🇺🇸US²_1|2.3MB/s|X|History 01'
-      - '🇺🇸US²_2|2.3MB/s|35%|GPT⁺|YT-CN|NF|X|History 01'
-      - '🇹🇼TW²_1|0.5MB/s|0%|X|History 01'
-      - '🇺🇸US²_3|1.7MB/s|GPT⁺|X|Succeed 01'
+      - '原生住宅 01'
+      - '🇬🇧GB²_1|1.1MB/s|22%|GPT⁺|X|History 01'
+      - '🇹🇼TW²_2|2.1MB/s|GPT⁺|YT|X|History 01'
+      - '🇹🇼TW²_3|1.0MB/s|X|Succeed 01'
   -
     name: '🎯 全球直连'
     type: "select"
@@ -943,7 +999,7 @@ proxy-groups:
       - '♻️ 自动选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-13 20:49:34'
+      - '更新于：2026-02-14 03:29:28'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -981,13 +1037,16 @@ proxy-groups:
       - '🇺🇸 美国英国 01'
       - '比利时 01'
       - '西班牙未知 01'
+      - '🇳🇱NL²_1|0.5MB/s|GPT|X|History 01'
+      - '原生机房 01'
+      - '🇯🇵JP²_1|0.7MB/s|0%|GPT|YT|D+|X|History 01'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
-      - '🇺🇸US²_1|2.3MB/s|X|History 01'
-      - '🇺🇸US²_2|2.3MB/s|35%|GPT⁺|YT-CN|NF|X|History 01'
-      - '🇹🇼TW²_1|0.5MB/s|0%|X|History 01'
-      - '🇺🇸US²_3|1.7MB/s|GPT⁺|X|Succeed 01'
+      - '原生住宅 01'
+      - '🇬🇧GB²_1|1.1MB/s|22%|GPT⁺|X|History 01'
+      - '🇹🇼TW²_2|2.1MB/s|GPT⁺|YT|X|History 01'
+      - '🇹🇼TW²_3|1.0MB/s|X|Succeed 01'
 rules:
   - 'DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连'
   - 'DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连'
