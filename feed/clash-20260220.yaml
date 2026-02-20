@@ -17,28 +17,28 @@ dns:
     - 'tls://dns.google:853'
 proxies:
   -
-    cipher: "chacha20-ietf-poly1305"
-    country: 🇮🇷IR
+    cipher: "aes-256-gcm"
+    country: '🇨🇳 CN'
     name: '每天更新免费节点：clashfreenode.com'
-    password: 13df5feb-756e-4627-bcee-497f3c81bab4
-    port: 20600
-    server: xgrr.sdnlv0.cn
+    password: ec8a5fb8-3a94-48a6-890a-4a80aa70b501
+    port: 39302
+    server: 120.240.179.11
     type: "ss"
   -
-    cipher: "chacha20-ietf-poly1305"
-    country: 🇮🇷IR
+    cipher: "aes-256-gcm"
+    country: '🇨🇳 CN'
     name: 'tg频道：@clashfreenode'
-    password: 13df5feb-756e-4627-bcee-497f3c81bab4
-    port: 20600
-    server: xgrr.sdnlv0.cn
+    password: ec8a5fb8-3a94-48a6-890a-4a80aa70b501
+    port: 39302
+    server: 120.240.179.11
     type: "ss"
   -
-    cipher: "chacha20-ietf-poly1305"
-    country: 🇮🇷IR
-    name: '更新于：2026-02-19 19:37:20'
-    password: 13df5feb-756e-4627-bcee-497f3c81bab4
-    port: 20600
-    server: xgrr.sdnlv0.cn
+    cipher: "aes-256-gcm"
+    country: '🇨🇳 CN'
+    name: '更新于：2026-02-20 16:22:00'
+    password: ec8a5fb8-3a94-48a6-890a-4a80aa70b501
+    port: 39302
+    server: 120.240.179.11
     type: "ss"
   -
     name: '🇺🇸 美国 01'
@@ -49,7 +49,7 @@ proxies:
     password: amazonskr05
   -
     name: '🇺🇸 美国 02'
-    server: 160.16.116.227
+    server: 160.16.106.99
     port: 1281
     type: "trojan"
     password: 64a59181551b5773e390bd717a7b7c06
@@ -57,7 +57,7 @@ proxies:
     skip-cert-verify: false
   -
     name: '🇺🇸 美国 03'
-    server: 160.16.236.32
+    server: 160.16.72.205
     port: 1281
     type: "trojan"
     password: 64a59181551b5773e390bd717a7b7c06
@@ -65,8 +65,8 @@ proxies:
     skip-cert-verify: false
   -
     name: '🇺🇸 美国 04'
-    server: 13.192.185.89
-    port: 9718
+    server: 54.238.211.1
+    port: 38780
     type: "trojan"
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
@@ -148,31 +148,31 @@ proxies:
       headers: { Host: ezdriv-server.help }
   -
     name: '🇯🇵 日本 01'
-    server: 13.192.184.146
-    port: 3760
+    server: 52.195.228.102
+    port: 26378
     type: "trojan"
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: true
   -
     name: '🇯🇵 日本 02'
-    server: 160.16.72.33
-    port: 3423
+    server: 153.121.51.29
+    port: 400
     type: "trojan"
     password: 64a59181551b5773e390bd717a7b7c06
     sni: www.nintendogames.net
     skip-cert-verify: false
   -
     name: '🇯🇵 日本 03'
-    server: 160.15.70.180
-    port: 3423
+    server: 160.16.105.192
+    port: 193
     type: "trojan"
     password: 64a59181551b5773e390bd717a7b7c06
     sni: www.nintendogames.net
     skip-cert-verify: false
   -
     name: '🇹🇼 台湾 01'
-    server: a12.taipeicitygovernment.org.ua
+    server: a03.taipeicitygovernment.cn.ua
     port: 3462
     type: "trojan"
     password: 736cd94d-7b94-3e44-8106-3419f64eaf09
@@ -190,41 +190,41 @@ proxies:
     skip-cert-verify: false
   -
     name: '🇭🇰 香港 02'
-    server: 27.44.141.89
-    port: 10001
+    server: select-hk.ddnskunlun.com
+    port: 9006
     type: "vmess"
-    uuid: 0e4e55e2-eca1-48ad-8669-da0440006556
+    uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
     alterId: 0
     cipher: "auto"
     tls: false
     skip-cert-verify: false
   -
     name: '🇭🇰 香港 03'
-    server: 58.152.53.227
-    port: 443
+    server: 57.180.15.244
+    port: 2255
     type: "trojan"
     password: 64a59181551b5773e390bd717a7b7c06
     sni: www.nintendogames.net
     skip-cert-verify: false
   -
     name: '🇭🇰 香港 04'
-    server: 13.115.255.16
-    port: 2399
+    server: 43.198.82.55
+    port: 3292
     type: "trojan"
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   -
     name: '🇭🇰 香港 05'
-    server: 43.207.3.183
-    port: 54548
+    server: 52.195.228.102
+    port: 3292
     type: "trojan"
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   -
     name: '🇸🇬 新加坡 01'
-    server: 160.16.72.205
+    server: 13.231.178.109
     port: 3901
     type: "trojan"
     password: 64a59181551b5773e390bd717a7b7c06
@@ -232,7 +232,7 @@ proxies:
     skip-cert-verify: false
   -
     name: '🇸🇬 新加坡 02'
-    server: 153.121.39.240
+    server: 18.183.98.127
     port: 3901
     type: "trojan"
     password: 64a59181551b5773e390bd717a7b7c06
@@ -248,6 +248,14 @@ proxies:
     skip-cert-verify: true
   -
     name: '🇸🇬 新加坡 04'
+    server: sg.singaporenodeserverone.co.ua
+    port: 443
+    type: "trojan"
+    password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+    sni: 45.32.28.232
+    skip-cert-verify: false
+  -
+    name: '🇸🇬 新加坡 05'
     type: "vmess"
     server: 128.199.128.117
     port: 443
@@ -442,9 +450,33 @@ proxies:
       path: /
       headers: { Host: dev.twistsparrow.xyz }
   -
+    alterId: 0
+    cipher: "auto"
+    name: '机房高风险黑名单 01'
+    network: ws
+    port: 20861
+    server: b3620512-57e1-7cf9-210c-72423b8c9bb5.yy4.ovh
+    tls: false
+    type: "vmess"
+    uuid: 047b8664-9b3c-4010-baba-229cbf7fa433
+    ws-opts:
+      headers: { Host: tms.dingtalk.com }
+      path: /
+  -
+    alterId: 2
+    cipher: "auto"
+    h2-opts: {  }
+    http-opts: {  }
+    name: '🇩🇪DE²_1|0.9MB/s|X|History 01'
+    network: tcp
+    port: 30833
+    server: v33.hdacd.com
+    type: "vmess"
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  -
     cipher: "chacha20-ietf-poly1305"
     country: 🇮🇷IR
-    name: '广播机房 01'
+    name: '🇮🇹IT²_1|2.1MB/s|33%|GPT⁺|X|History 01'
     password: 13df5feb-756e-4627-bcee-497f3c81bab4
     port: 46253
     server: f.sdnlv0.cn
@@ -452,9 +484,25 @@ proxies:
   -
     cipher: "chacha20-ietf-poly1305"
     country: 🇮🇷IR
+    name: '原生机房 01'
+    password: 13df5feb-756e-4627-bcee-497f3c81bab4
+    port: 48973
+    server: xgrr.sdnlv0.cn
+    type: "ss"
+  -
+    cipher: "chacha20-ietf-poly1305"
+    country: 🇮🇷IR
+    name: '广播机房 01'
+    password: 13df5feb-756e-4627-bcee-497f3c81bab4
+    port: 36086
+    server: f.sdnlv0.cn
+    type: "ss"
+  -
+    cipher: "chacha20-ietf-poly1305"
+    country: 🇮🇷IR
     name: '广播机房 02'
     password: 13df5feb-756e-4627-bcee-497f3c81bab4
-    port: 42295
+    port: 15783
     server: f.sdnlv0.cn
     type: "ss"
   -
@@ -462,16 +510,16 @@ proxies:
     country: 🇮🇷IR
     name: '广播机房 03'
     password: 13df5feb-756e-4627-bcee-497f3c81bab4
-    port: 20600
-    server: xgrr.sdnlv0.cn
+    port: 31032
+    server: f.sdnlv0.cn
     type: "ss"
   -
-    cipher: "chacha20-ietf-poly1305"
-    country: 🇮🇷IR
-    name: '🇧🇷BR²_1|1.6MB/s|8%|GPT⁺|X|Succeed 01'
-    password: 13df5feb-756e-4627-bcee-497f3c81bab4
-    port: 11270
-    server: f.sdnlv0.cn
+    cipher: "aes-256-gcm"
+    country: '🇨🇳 CN'
+    name: '🇮🇱IL²_1|3.8MB/s|4%|GPT⁺|X 01'
+    password: ec8a5fb8-3a94-48a6-890a-4a80aa70b501
+    port: 39302
+    server: 120.240.179.11
     type: "ss"
 proxy-groups:
   -
@@ -482,7 +530,7 @@ proxy-groups:
       - DIRECT
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-19 19:37:20'
+      - '更新于：2026-02-20 16:22:00'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -506,6 +554,7 @@ proxy-groups:
       - '🇸🇬 新加坡 02'
       - '🇸🇬 新加坡 03'
       - '🇸🇬 新加坡 04'
+      - '🇸🇬 新加坡 05'
       - '阿塞拜疆拉脱维亚 01'
       - '伊朗未知 01'
       - '🇺🇸 比利时美国 01'
@@ -521,10 +570,14 @@ proxy-groups:
       - '🇺🇸 美国英国 01'
       - '比利时 01'
       - '西班牙未知 01'
+      - '机房高风险黑名单 01'
+      - '🇩🇪DE²_1|0.9MB/s|X|History 01'
+      - '🇮🇹IT²_1|2.1MB/s|33%|GPT⁺|X|History 01'
+      - '原生机房 01'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
-      - '🇧🇷BR²_1|1.6MB/s|8%|GPT⁺|X|Succeed 01'
+      - '🇮🇱IL²_1|3.8MB/s|4%|GPT⁺|X 01'
   -
     name: '♻️ 自动选择'
     type: "url-test"
@@ -534,7 +587,7 @@ proxy-groups:
     proxies:
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-19 19:37:20'
+      - '更新于：2026-02-20 16:22:00'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -558,6 +611,7 @@ proxy-groups:
       - '🇸🇬 新加坡 02'
       - '🇸🇬 新加坡 03'
       - '🇸🇬 新加坡 04'
+      - '🇸🇬 新加坡 05'
       - '阿塞拜疆拉脱维亚 01'
       - '伊朗未知 01'
       - '🇺🇸 比利时美国 01'
@@ -573,10 +627,14 @@ proxy-groups:
       - '🇺🇸 美国英国 01'
       - '比利时 01'
       - '西班牙未知 01'
+      - '机房高风险黑名单 01'
+      - '🇩🇪DE²_1|0.9MB/s|X|History 01'
+      - '🇮🇹IT²_1|2.1MB/s|33%|GPT⁺|X|History 01'
+      - '原生机房 01'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
-      - '🇧🇷BR²_1|1.6MB/s|8%|GPT⁺|X|Succeed 01'
+      - '🇮🇱IL²_1|3.8MB/s|4%|GPT⁺|X 01'
   -
     name: '🌍 国外媒体'
     type: "select"
@@ -586,7 +644,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-19 19:37:20'
+      - '更新于：2026-02-20 16:22:00'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -610,6 +668,7 @@ proxy-groups:
       - '🇸🇬 新加坡 02'
       - '🇸🇬 新加坡 03'
       - '🇸🇬 新加坡 04'
+      - '🇸🇬 新加坡 05'
       - '阿塞拜疆拉脱维亚 01'
       - '伊朗未知 01'
       - '🇺🇸 比利时美国 01'
@@ -625,10 +684,14 @@ proxy-groups:
       - '🇺🇸 美国英国 01'
       - '比利时 01'
       - '西班牙未知 01'
+      - '机房高风险黑名单 01'
+      - '🇩🇪DE²_1|0.9MB/s|X|History 01'
+      - '🇮🇹IT²_1|2.1MB/s|33%|GPT⁺|X|History 01'
+      - '原生机房 01'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
-      - '🇧🇷BR²_1|1.6MB/s|8%|GPT⁺|X|Succeed 01'
+      - '🇮🇱IL²_1|3.8MB/s|4%|GPT⁺|X 01'
   -
     name: '📲 电报信息'
     type: "select"
@@ -637,7 +700,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-19 19:37:20'
+      - '更新于：2026-02-20 16:22:00'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -661,6 +724,7 @@ proxy-groups:
       - '🇸🇬 新加坡 02'
       - '🇸🇬 新加坡 03'
       - '🇸🇬 新加坡 04'
+      - '🇸🇬 新加坡 05'
       - '阿塞拜疆拉脱维亚 01'
       - '伊朗未知 01'
       - '🇺🇸 比利时美国 01'
@@ -676,10 +740,14 @@ proxy-groups:
       - '🇺🇸 美国英国 01'
       - '比利时 01'
       - '西班牙未知 01'
+      - '机房高风险黑名单 01'
+      - '🇩🇪DE²_1|0.9MB/s|X|History 01'
+      - '🇮🇹IT²_1|2.1MB/s|33%|GPT⁺|X|History 01'
+      - '原生机房 01'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
-      - '🇧🇷BR²_1|1.6MB/s|8%|GPT⁺|X|Succeed 01'
+      - '🇮🇱IL²_1|3.8MB/s|4%|GPT⁺|X 01'
   -
     name: 'Ⓜ️ 微软服务'
     type: "select"
@@ -688,7 +756,7 @@ proxy-groups:
       - '🚀 节点选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-19 19:37:20'
+      - '更新于：2026-02-20 16:22:00'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -712,6 +780,7 @@ proxy-groups:
       - '🇸🇬 新加坡 02'
       - '🇸🇬 新加坡 03'
       - '🇸🇬 新加坡 04'
+      - '🇸🇬 新加坡 05'
       - '阿塞拜疆拉脱维亚 01'
       - '伊朗未知 01'
       - '🇺🇸 比利时美国 01'
@@ -727,10 +796,14 @@ proxy-groups:
       - '🇺🇸 美国英国 01'
       - '比利时 01'
       - '西班牙未知 01'
+      - '机房高风险黑名单 01'
+      - '🇩🇪DE²_1|0.9MB/s|X|History 01'
+      - '🇮🇹IT²_1|2.1MB/s|33%|GPT⁺|X|History 01'
+      - '原生机房 01'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
-      - '🇧🇷BR²_1|1.6MB/s|8%|GPT⁺|X|Succeed 01'
+      - '🇮🇱IL²_1|3.8MB/s|4%|GPT⁺|X 01'
   -
     name: '🍎 苹果服务'
     type: "select"
@@ -739,7 +812,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-19 19:37:20'
+      - '更新于：2026-02-20 16:22:00'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -763,6 +836,7 @@ proxy-groups:
       - '🇸🇬 新加坡 02'
       - '🇸🇬 新加坡 03'
       - '🇸🇬 新加坡 04'
+      - '🇸🇬 新加坡 05'
       - '阿塞拜疆拉脱维亚 01'
       - '伊朗未知 01'
       - '🇺🇸 比利时美国 01'
@@ -778,10 +852,14 @@ proxy-groups:
       - '🇺🇸 美国英国 01'
       - '比利时 01'
       - '西班牙未知 01'
+      - '机房高风险黑名单 01'
+      - '🇩🇪DE²_1|0.9MB/s|X|History 01'
+      - '🇮🇹IT²_1|2.1MB/s|33%|GPT⁺|X|History 01'
+      - '原生机房 01'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
-      - '🇧🇷BR²_1|1.6MB/s|8%|GPT⁺|X|Succeed 01'
+      - '🇮🇱IL²_1|3.8MB/s|4%|GPT⁺|X 01'
   -
     name: '📢 谷歌FCM'
     type: "select"
@@ -791,7 +869,7 @@ proxy-groups:
       - '♻️ 自动选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-19 19:37:20'
+      - '更新于：2026-02-20 16:22:00'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -815,6 +893,7 @@ proxy-groups:
       - '🇸🇬 新加坡 02'
       - '🇸🇬 新加坡 03'
       - '🇸🇬 新加坡 04'
+      - '🇸🇬 新加坡 05'
       - '阿塞拜疆拉脱维亚 01'
       - '伊朗未知 01'
       - '🇺🇸 比利时美国 01'
@@ -830,10 +909,14 @@ proxy-groups:
       - '🇺🇸 美国英国 01'
       - '比利时 01'
       - '西班牙未知 01'
+      - '机房高风险黑名单 01'
+      - '🇩🇪DE²_1|0.9MB/s|X|History 01'
+      - '🇮🇹IT²_1|2.1MB/s|33%|GPT⁺|X|History 01'
+      - '原生机房 01'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
-      - '🇧🇷BR²_1|1.6MB/s|8%|GPT⁺|X|Succeed 01'
+      - '🇮🇱IL²_1|3.8MB/s|4%|GPT⁺|X 01'
   -
     name: '🎯 全球直连'
     type: "select"
@@ -862,7 +945,7 @@ proxy-groups:
       - '♻️ 自动选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-19 19:37:20'
+      - '更新于：2026-02-20 16:22:00'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -886,6 +969,7 @@ proxy-groups:
       - '🇸🇬 新加坡 02'
       - '🇸🇬 新加坡 03'
       - '🇸🇬 新加坡 04'
+      - '🇸🇬 新加坡 05'
       - '阿塞拜疆拉脱维亚 01'
       - '伊朗未知 01'
       - '🇺🇸 比利时美国 01'
@@ -901,10 +985,14 @@ proxy-groups:
       - '🇺🇸 美国英国 01'
       - '比利时 01'
       - '西班牙未知 01'
+      - '机房高风险黑名单 01'
+      - '🇩🇪DE²_1|0.9MB/s|X|History 01'
+      - '🇮🇹IT²_1|2.1MB/s|33%|GPT⁺|X|History 01'
+      - '原生机房 01'
       - '广播机房 01'
       - '广播机房 02'
       - '广播机房 03'
-      - '🇧🇷BR²_1|1.6MB/s|8%|GPT⁺|X|Succeed 01'
+      - '🇮🇱IL²_1|3.8MB/s|4%|GPT⁺|X 01'
 rules:
   - 'DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连'
   - 'DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连'
