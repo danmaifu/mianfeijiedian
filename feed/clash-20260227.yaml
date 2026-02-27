@@ -33,7 +33,7 @@ proxies:
     type: "http"
     username: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
   -
-    name: '更新于：2026-02-27 05:46:08'
+    name: '更新于：2026-02-27 08:48:25'
     password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
     port: 32233
     server: 51a80f84-tax5s0-tcdmjc-1gevg.id.oshuawei.com
@@ -49,7 +49,7 @@ proxies:
     password: amazonskr05
   -
     name: '🇺🇸 美国 02'
-    server: 153.121.65.107
+    server: 160.16.130.21
     port: 4920
     type: "trojan"
     password: 262f1d150049457ac1d6e66b020fa980
@@ -57,32 +57,22 @@ proxies:
     skip-cert-verify: false
   -
     name: '🇺🇸 美国 03'
-    server: 153.121.65.107
-    port: 1281
+    server: 160.16.124.17
+    port: 4920
     type: "trojan"
     password: 262f1d150049457ac1d6e66b020fa980
     sni: www.nintendogames.net
     skip-cert-verify: false
   -
     name: '🇺🇸 美国 04'
-    server: 43.198.101.173
-    port: 45947
+    server: 54.46.4.240
+    port: 38780
     type: "trojan"
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   -
     name: '🇺🇸 美国 05'
-    server: select-us.ddnskunlun.com
-    port: 9027
-    type: "vmess"
-    uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    skip-cert-verify: false
-  -
-    name: '🇺🇸 美国 06'
     type: "vless"
     server: s842.ccgfw.top
     port: 443
@@ -94,7 +84,7 @@ proxies:
     grpc-opts:
       grpc-service-name: ssp
   -
-    name: '🇺🇸 美国 07'
+    name: '🇺🇸 美国 06'
     type: "vless"
     server: nodejs.org
     port: 2052
@@ -105,7 +95,7 @@ proxies:
       path: '/?ed'
       headers: { Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy. }
   -
-    name: '🇺🇸 美国 08'
+    name: '🇺🇸 美国 07'
     type: "vless"
     server: www.visasoutheasteurope.com
     port: 2096
@@ -118,14 +108,14 @@ proxies:
       path: '/?ed=2560'
       headers: { Host: daluan.eu.org }
   -
-    name: '🇺🇸 美国 09'
+    name: '🇺🇸 美国 08'
     type: "ss"
     server: 38.54.57.90
     port: 989
     cipher: "aes-256-cfb"
     password: f8f7aCzcPKbsF8p3
   -
-    name: '🇺🇸 美国 10'
+    name: '🇺🇸 美国 09'
     type: "vless"
     server: s719.okgfw.top
     port: 443
@@ -136,15 +126,15 @@ proxies:
     client-fingerprint: random
   -
     name: '🇯🇵 日本 01'
-    server: 13.231.58.134
-    port: 26378
+    server: 52.194.205.115
+    port: 2762
     type: "trojan"
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: true
   -
     name: '🇯🇵 日本 02'
-    server: 160.16.231.103
+    server: 153.121.70.134
     port: 400
     type: "trojan"
     password: 262f1d150049457ac1d6e66b020fa980
@@ -152,7 +142,7 @@ proxies:
     skip-cert-verify: false
   -
     name: '🇯🇵 日本 03'
-    server: 54.250.241.85
+    server: 153.121.38.213
     port: 3423
     type: "trojan"
     password: 262f1d150049457ac1d6e66b020fa980
@@ -170,31 +160,31 @@ proxies:
     skip-cert-verify: false
   -
     name: '🇭🇰 香港 02'
-    server: 13.231.143.120
-    port: 2255
+    server: 52.69.221.238
+    port: 4856
     type: "trojan"
     password: 262f1d150049457ac1d6e66b020fa980
     sni: www.nintendogames.net
     skip-cert-verify: false
   -
     name: '🇭🇰 香港 03'
-    server: 43.198.101.173
-    port: 504
+    server: 3.112.5.11
+    port: 2399
     type: "trojan"
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   -
     name: '🇭🇰 香港 04'
-    server: 13.115.229.23
-    port: 445
+    server: 95.40.65.207
+    port: 54548
     type: "trojan"
     password: BxceQaOe
     sni: t.me%2Fripaojiedian
     skip-cert-verify: true
   -
     name: '🇸🇬 新加坡 01'
-    server: 153.121.65.107
+    server: 160.16.150.76
     port: 3419
     type: "trojan"
     password: 262f1d150049457ac1d6e66b020fa980
@@ -202,30 +192,20 @@ proxies:
     skip-cert-verify: false
   -
     name: '🇸🇬 新加坡 02'
-    server: 35.77.90.248
-    port: 3901
+    server: 52.193.121.51
+    port: 3419
     type: "trojan"
     password: 262f1d150049457ac1d6e66b020fa980
     sni: www.nintendogames.net
     skip-cert-verify: false
   -
     name: '🇸🇬 新加坡 03'
-    server: 16.163.102.116
-    port: 52951
+    server: 43.198.13.210
+    port: 41973
     type: "trojan"
     password: BxceQaOe
     sni: t.me%252Fripaojiedian
     skip-cert-verify: true
-  -
-    name: '波兰 01'
-    server: board-02.ddnskunlun.com
-    port: 11885
-    type: "vmess"
-    uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
-    alterId: 0
-    cipher: "auto"
-    tls: false
-    skip-cert-verify: false
   -
     name: '🇺🇸 美国奥地利 01'
     type: "vless"
@@ -582,7 +562,7 @@ proxy-groups:
       - DIRECT
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-27 05:46:08'
+      - '更新于：2026-02-27 08:48:25'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -592,7 +572,6 @@ proxy-groups:
       - '🇺🇸 美国 07'
       - '🇺🇸 美国 08'
       - '🇺🇸 美国 09'
-      - '🇺🇸 美国 10'
       - '🇯🇵 日本 01'
       - '🇯🇵 日本 02'
       - '🇯🇵 日本 03'
@@ -603,7 +582,6 @@ proxy-groups:
       - '🇸🇬 新加坡 01'
       - '🇸🇬 新加坡 02'
       - '🇸🇬 新加坡 03'
-      - '波兰 01'
       - '🇺🇸 美国奥地利 01'
       - '法国 01'
       - '🇷🇺 俄罗斯 01'
@@ -641,7 +619,7 @@ proxy-groups:
     proxies:
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-27 05:46:08'
+      - '更新于：2026-02-27 08:48:25'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -651,7 +629,6 @@ proxy-groups:
       - '🇺🇸 美国 07'
       - '🇺🇸 美国 08'
       - '🇺🇸 美国 09'
-      - '🇺🇸 美国 10'
       - '🇯🇵 日本 01'
       - '🇯🇵 日本 02'
       - '🇯🇵 日本 03'
@@ -662,7 +639,6 @@ proxy-groups:
       - '🇸🇬 新加坡 01'
       - '🇸🇬 新加坡 02'
       - '🇸🇬 新加坡 03'
-      - '波兰 01'
       - '🇺🇸 美国奥地利 01'
       - '法国 01'
       - '🇷🇺 俄罗斯 01'
@@ -700,7 +676,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-27 05:46:08'
+      - '更新于：2026-02-27 08:48:25'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -710,7 +686,6 @@ proxy-groups:
       - '🇺🇸 美国 07'
       - '🇺🇸 美国 08'
       - '🇺🇸 美国 09'
-      - '🇺🇸 美国 10'
       - '🇯🇵 日本 01'
       - '🇯🇵 日本 02'
       - '🇯🇵 日本 03'
@@ -721,7 +696,6 @@ proxy-groups:
       - '🇸🇬 新加坡 01'
       - '🇸🇬 新加坡 02'
       - '🇸🇬 新加坡 03'
-      - '波兰 01'
       - '🇺🇸 美国奥地利 01'
       - '法国 01'
       - '🇷🇺 俄罗斯 01'
@@ -758,7 +732,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-27 05:46:08'
+      - '更新于：2026-02-27 08:48:25'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -768,7 +742,6 @@ proxy-groups:
       - '🇺🇸 美国 07'
       - '🇺🇸 美国 08'
       - '🇺🇸 美国 09'
-      - '🇺🇸 美国 10'
       - '🇯🇵 日本 01'
       - '🇯🇵 日本 02'
       - '🇯🇵 日本 03'
@@ -779,7 +752,6 @@ proxy-groups:
       - '🇸🇬 新加坡 01'
       - '🇸🇬 新加坡 02'
       - '🇸🇬 新加坡 03'
-      - '波兰 01'
       - '🇺🇸 美国奥地利 01'
       - '法国 01'
       - '🇷🇺 俄罗斯 01'
@@ -816,7 +788,7 @@ proxy-groups:
       - '🚀 节点选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-27 05:46:08'
+      - '更新于：2026-02-27 08:48:25'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -826,7 +798,6 @@ proxy-groups:
       - '🇺🇸 美国 07'
       - '🇺🇸 美国 08'
       - '🇺🇸 美国 09'
-      - '🇺🇸 美国 10'
       - '🇯🇵 日本 01'
       - '🇯🇵 日本 02'
       - '🇯🇵 日本 03'
@@ -837,7 +808,6 @@ proxy-groups:
       - '🇸🇬 新加坡 01'
       - '🇸🇬 新加坡 02'
       - '🇸🇬 新加坡 03'
-      - '波兰 01'
       - '🇺🇸 美国奥地利 01'
       - '法国 01'
       - '🇷🇺 俄罗斯 01'
@@ -874,7 +844,7 @@ proxy-groups:
       - '🎯 全球直连'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-27 05:46:08'
+      - '更新于：2026-02-27 08:48:25'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -884,7 +854,6 @@ proxy-groups:
       - '🇺🇸 美国 07'
       - '🇺🇸 美国 08'
       - '🇺🇸 美国 09'
-      - '🇺🇸 美国 10'
       - '🇯🇵 日本 01'
       - '🇯🇵 日本 02'
       - '🇯🇵 日本 03'
@@ -895,7 +864,6 @@ proxy-groups:
       - '🇸🇬 新加坡 01'
       - '🇸🇬 新加坡 02'
       - '🇸🇬 新加坡 03'
-      - '波兰 01'
       - '🇺🇸 美国奥地利 01'
       - '法国 01'
       - '🇷🇺 俄罗斯 01'
@@ -933,7 +901,7 @@ proxy-groups:
       - '♻️ 自动选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-27 05:46:08'
+      - '更新于：2026-02-27 08:48:25'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -943,7 +911,6 @@ proxy-groups:
       - '🇺🇸 美国 07'
       - '🇺🇸 美国 08'
       - '🇺🇸 美国 09'
-      - '🇺🇸 美国 10'
       - '🇯🇵 日本 01'
       - '🇯🇵 日本 02'
       - '🇯🇵 日本 03'
@@ -954,7 +921,6 @@ proxy-groups:
       - '🇸🇬 新加坡 01'
       - '🇸🇬 新加坡 02'
       - '🇸🇬 新加坡 03'
-      - '波兰 01'
       - '🇺🇸 美国奥地利 01'
       - '法国 01'
       - '🇷🇺 俄罗斯 01'
@@ -1011,7 +977,7 @@ proxy-groups:
       - '♻️ 自动选择'
       - '每天更新免费节点：clashfreenode.com'
       - 'tg频道：@clashfreenode'
-      - '更新于：2026-02-27 05:46:08'
+      - '更新于：2026-02-27 08:48:25'
       - '🇺🇸 美国 01'
       - '🇺🇸 美国 02'
       - '🇺🇸 美国 03'
@@ -1021,7 +987,6 @@ proxy-groups:
       - '🇺🇸 美国 07'
       - '🇺🇸 美国 08'
       - '🇺🇸 美国 09'
-      - '🇺🇸 美国 10'
       - '🇯🇵 日本 01'
       - '🇯🇵 日本 02'
       - '🇯🇵 日本 03'
@@ -1032,7 +997,6 @@ proxy-groups:
       - '🇸🇬 新加坡 01'
       - '🇸🇬 新加坡 02'
       - '🇸🇬 新加坡 03'
-      - '波兰 01'
       - '🇺🇸 美国奥地利 01'
       - '法国 01'
       - '🇷🇺 俄罗斯 01'
