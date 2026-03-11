@@ -1,19 +1,19 @@
 # 爬虫自动抓取免费的clash/v2ray节点订阅，每天自动更新。
 
-🕙更新时间：2026年03月11日 16:33:02
+🕙更新时间：2026年03月12日 01:46:02
 
 ## 免费节点订阅链接
 
 v2ray订阅链接：
 
 ```
-https://raw.githubusercontent.com/danmaifu/mianfeijiedian/main/feed/clash-20260311.yaml
+https://raw.githubusercontent.com/danmaifu/mianfeijiedian/main/feed/clash-20260312.yaml
 ```
 
 clash订阅链接：
 
 ```
-https://raw.githubusercontent.com/danmaifu/mianfeijiedian/main/feed/v2ray-20260311.txt
+https://raw.githubusercontent.com/danmaifu/mianfeijiedian/main/feed/v2ray-20260312.txt
 ```
 ## 抓取来源
 
