@@ -1,1 +1,1 @@
-Error: Failed to connect to master.diaodu.us port 443 after 82 ms: Couldn't connect to server
+Error: Failed to connect to master.diaodu.us port 443 after 80 ms: Couldn't connect to server
